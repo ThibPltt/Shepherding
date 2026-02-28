@@ -1,0 +1,1209 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+C:\Users\Thibaut\anaconda3\envs\shepherding\Lib\site-packages\pygame\pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_stream, resource_exists
+Training with CNN_QN (#sheep: 1)...
+[Eval]	 Ep    0 | Reward: 526.91 ± 2914.42 | Length: 159
+New best model saved to models/dqn_sheep1_obst0_best.pth
+[Train] Ep    0 | Reward: 2694.96
+[Train] Ep    1 | Reward: -343.73
+[Train] Ep    2 | Reward: -3054.40
+[Train] Ep    3 | Reward: 2694.93
+[Train] Ep    4 | Reward: -2674.55
+[Eval]	 Ep    5 | Reward: -4596.67 ± 150.89 | Length: 500
+[Train] Ep    5 | Reward: -2627.51
+[Train] Ep    6 | Reward: 2691.19
+[Train] Ep    7 | Reward: -2743.86
+[Train] Ep    8 | Reward: -2701.96
+[Train] Ep    9 | Reward: 2062.20
+[Eval]	 Ep   10 | Reward: -3207.29 ± 2964.13 | Length: 400
+[Train] Ep   10 | Reward: -2572.79
+[Train] Ep   11 | Reward: -2645.69
+[Train] Ep   12 | Reward: -2185.41
+[Train] Ep   13 | Reward: -2782.37
+[Train] Ep   14 | Reward: 2696.29
+[Eval]	 Ep   15 | Reward: -4497.62 ± 101.11 | Length: 500
+[Train] Ep   15 | Reward: 2694.96
+[Train] Ep   16 | Reward: -2550.18
+[Train] Ep   17 | Reward: 2695.52
+[Train] Ep   18 | Reward: -2589.09
+[Train] Ep   19 | Reward: -2696.25
+[Eval]	 Ep   20 | Reward: -245.74 ± 3602.16 | Length: 201
+[Train] Ep   20 | Reward: -2623.47
+[Train] Ep   21 | Reward: -2737.45
+[Train] Ep   22 | Reward: 2694.92
+[Train] Ep   23 | Reward: -2783.91
+[Train] Ep   24 | Reward: -2928.33
+[Eval]	 Ep   25 | Reward: -4500.57 ± 172.09 | Length: 500
+[Train] Ep   25 | Reward: 2695.76
+[Train] Ep   26 | Reward: 2694.91
+[Train] Ep   27 | Reward: 1574.78
+[Train] Ep   28 | Reward: 2390.25
+[Train] Ep   29 | Reward: 2694.95
+[Eval]	 Ep   30 | Reward: -4574.34 ± 48.74 | Length: 500
+[Train] Ep   30 | Reward: -2718.65
+[Train] Ep   31 | Reward: 2694.94
+[Train] Ep   32 | Reward: -2748.80
+[Train] Ep   33 | Reward: -2902.31
+[Train] Ep   34 | Reward: -2759.42
+[Eval]	 Ep   35 | Reward: -3311.67 ± 2839.58 | Length: 409
+[Train] Ep   35 | Reward: -2727.91
+[Train] Ep   36 | Reward: -2436.42
+[Train] Ep   37 | Reward: -2935.97
+[Train] Ep   38 | Reward: 2694.98
+[Train] Ep   39 | Reward: -2639.90
+[Eval]	 Ep   40 | Reward: -3240.60 ± 2970.95 | Length: 400
+[Train] Ep   40 | Reward: -3024.19
+[Train] Ep   41 | Reward: 2694.95
+[Train] Ep   42 | Reward: 2694.97
+[Train] Ep   43 | Reward: -2571.81
+[Train] Ep   44 | Reward: -2981.10
+[Eval]	 Ep   45 | Reward: -2413.63 ± 2693.41 | Length: 359
+[Train] Ep   45 | Reward: -2838.56
+[Train] Ep   46 | Reward: -2703.86
+[Train] Ep   47 | Reward: -2362.94
+[Train] Ep   48 | Reward: -2581.37
+[Train] Ep   49 | Reward: -2846.83
+[Eval]	 Ep   50 | Reward: -881.97 ± 3201.19 | Length: 330
+[Train] Ep   50 | Reward: 2396.68
+[Train] Ep   51 | Reward: -2841.56
+[Train] Ep   52 | Reward: 2695.05
+[Train] Ep   53 | Reward: -2832.22
+[Train] Ep   54 | Reward: -2376.26
+[Eval]	 Ep   55 | Reward: -349.31 ± 3550.41 | Length: 213
+[Train] Ep   55 | Reward: -2748.47
+[Train] Ep   56 | Reward: -2397.81
+[Train] Ep   57 | Reward: -3066.00
+[Train] Ep   58 | Reward: -2731.25
+[Train] Ep   59 | Reward: -2396.23
+[Eval]	 Ep   60 | Reward: -185.71 ± 698.01 | Length: 500
+[Train] Ep   60 | Reward: 2694.93
+[Train] Ep   61 | Reward: -2311.73
+[Train] Ep   62 | Reward: -2443.16
+[Train] Ep   63 | Reward: -2814.55
+[Train] Ep   64 | Reward: -2658.91
+[Eval]	 Ep   65 | Reward: -2263.63 ± 3164.31 | Length: 336
+[Train] Ep   65 | Reward: -2433.18
+[Train] Ep   66 | Reward: -2193.04
+[Train] Ep   67 | Reward: -2084.64
+[Train] Ep   68 | Reward: -2480.79
+[Train] Ep   69 | Reward: 2695.02
+[Eval]	 Ep   70 | Reward: -3578.86 ± 1835.97 | Length: 441
+[Train] Ep   70 | Reward: -2629.40
+[Train] Ep   71 | Reward: 2695.02
+[Train] Ep   72 | Reward: -2771.30
+[Train] Ep   73 | Reward: -261.44
+[Train] Ep   74 | Reward: -2898.48
+[Eval]	 Ep   75 | Reward: 503.93 ± 1095.99 | Length: 400
+[Train] Ep   75 | Reward: -1984.52
+[Train] Ep   76 | Reward: -2213.67
+[Train] Ep   77 | Reward: -2302.63
+[Train] Ep   78 | Reward: 2672.67
+[Train] Ep   79 | Reward: -1985.89
+[Eval]	 Ep   80 | Reward: -355.29 ± 2340.61 | Length: 401
+[Train] Ep   80 | Reward: 2694.92
+[Train] Ep   81 | Reward: -2099.85
+[Train] Ep   82 | Reward: -2470.68
+[Train] Ep   83 | Reward: -2303.27
+[Train] Ep   84 | Reward: -2609.27
+[Eval]	 Ep   85 | Reward: -1843.99 ± 3712.22 | Length: 300
+[Train] Ep   85 | Reward: -2246.15
+[Train] Ep   86 | Reward: -2644.35
+[Train] Ep   87 | Reward: -2420.00
+[Train] Ep   88 | Reward: -2321.46
+[Train] Ep   89 | Reward: -1892.78
+[Eval]	 Ep   90 | Reward: -807.34 ± 2933.10 | Length: 322
+[Train] Ep   90 | Reward: 2694.91
+[Train] Ep   91 | Reward: -2710.99
+[Train] Ep   92 | Reward: -2691.99
+[Train] Ep   93 | Reward: -2434.83
+[Train] Ep   94 | Reward: -1973.60
+[Eval]	 Ep   95 | Reward: 1687.35 ± 1245.90 | Length: 201
+[Train] Ep   95 | Reward: -2446.30
+[Train] Ep   96 | Reward: -2159.95
+[Train] Ep   97 | Reward: -2109.31
+[Train] Ep   98 | Reward: 2695.33
+[Train] Ep   99 | Reward: 2695.00
+[Eval]	 Ep  100 | Reward: 134.25 ± 1354.86 | Length: 400
+[Train] Ep  100 | Reward: -1926.44
+[Train] Ep  101 | Reward: -368.46
+[Train] Ep  102 | Reward: -2247.28
+[Train] Ep  103 | Reward: -1930.69
+[Train] Ep  104 | Reward: 2695.25
+[Eval]	 Ep  105 | Reward: -2742.45 ± 2308.71 | Length: 500
+[Train] Ep  105 | Reward: -2479.09
+[Train] Ep  106 | Reward: -1984.32
+[Train] Ep  107 | Reward: 2588.33
+[Train] Ep  108 | Reward: -1502.31
+[Train] Ep  109 | Reward: 2681.56
+[Eval]	 Ep  110 | Reward: -3984.99 ± 1461.52 | Length: 454
+[Train] Ep  110 | Reward: -2204.47
+[Train] Ep  111 | Reward: -1861.20
+[Train] Ep  112 | Reward: 2274.56
+[Train] Ep  113 | Reward: -2192.79
+[Train] Ep  114 | Reward: 2694.93
+[Eval]	 Ep  115 | Reward: -55.79 ± 1904.06 | Length: 400
+[Train] Ep  115 | Reward: -1004.87
+[Train] Ep  116 | Reward: -2464.97
+[Train] Ep  117 | Reward: -2224.29
+[Train] Ep  118 | Reward: -2113.46
+[Train] Ep  119 | Reward: -1924.19
+[Eval]	 Ep  120 | Reward: 63.70 ± 81.25 | Length: 500
+[Train] Ep  120 | Reward: -1949.77
+[Train] Ep  121 | Reward: -2004.44
+[Train] Ep  122 | Reward: -1942.67
+[Train] Ep  123 | Reward: -1964.11
+[Train] Ep  124 | Reward: -2527.67
+[Eval]	 Ep  125 | Reward: 94.74 ± 192.42 | Length: 500
+[Train] Ep  125 | Reward: -2182.04
+[Train] Ep  126 | Reward: 2695.82
+[Train] Ep  127 | Reward: -1664.69
+[Train] Ep  128 | Reward: 2687.29
+[Train] Ep  129 | Reward: 2694.98
+[Eval]	 Ep  130 | Reward: 351.09 ± 392.60 | Length: 482
+[Train] Ep  130 | Reward: -2205.19
+[Train] Ep  131 | Reward: -2315.08
+[Train] Ep  132 | Reward: -2130.62
+[Train] Ep  133 | Reward: -1686.10
+[Train] Ep  134 | Reward: 2694.93
+[Eval]	 Ep  135 | Reward: 524.86 ± 1086.49 | Length: 400
+[Train] Ep  135 | Reward: -1870.88
+[Train] Ep  136 | Reward: -2056.75
+[Train] Ep  137 | Reward: 2694.97
+[Train] Ep  138 | Reward: 1637.62
+[Train] Ep  139 | Reward: -2251.81
+[Eval]	 Ep  140 | Reward: 688.84 ± 1018.18 | Length: 400
+[Train] Ep  140 | Reward: 464.97
+[Train] Ep  141 | Reward: 2695.14
+[Train] Ep  142 | Reward: -1597.28
+[Train] Ep  143 | Reward: -1734.59
+[Train] Ep  144 | Reward: -782.07
+[Eval]	 Ep  145 | Reward: 537.62 ± 1081.79 | Length: 400
+[Train] Ep  145 | Reward: -1736.04
+[Train] Ep  146 | Reward: -1129.77
+[Train] Ep  147 | Reward: -1177.53
+[Train] Ep  148 | Reward: -1335.71
+[Train] Ep  149 | Reward: -1223.88
+[Eval]	 Ep  150 | Reward: 870.54 ± 1156.84 | Length: 337
+[Train] Ep  150 | Reward: -980.39
+[Train] Ep  151 | Reward: -765.02
+[Train] Ep  152 | Reward: -970.62
+[Train] Ep  153 | Reward: 2312.78
+[Train] Ep  154 | Reward: -1353.62
+[Eval]	 Ep  155 | Reward: 1723.23 ± 1211.27 | Length: 201
+[Train] Ep  155 | Reward: -1055.22
+[Train] Ep  156 | Reward: -1308.08
+[Train] Ep  157 | Reward: 2695.00
+[Train] Ep  158 | Reward: -1327.03
+[Train] Ep  159 | Reward: 2695.95
+[Eval]	 Ep  160 | Reward: 430.00 ± 931.99 | Length: 417
+[Train] Ep  160 | Reward: -1283.33
+[Train] Ep  161 | Reward: -657.70
+[Train] Ep  162 | Reward: -798.25
+[Train] Ep  163 | Reward: -1121.49
+[Train] Ep  164 | Reward: 2694.96
+[Eval]	 Ep  165 | Reward: 860.57 ± 1009.15 | Length: 363
+[Train] Ep  165 | Reward: 2311.22
+[Train] Ep  166 | Reward: -1190.48
+[Train] Ep  167 | Reward: -901.62
+[Train] Ep  168 | Reward: 2695.29
+[Train] Ep  169 | Reward: -835.50
+[Eval]	 Ep  170 | Reward: 1152.34 ± 1240.69 | Length: 304
+[Train] Ep  170 | Reward: -1029.01
+[Train] Ep  171 | Reward: -1160.68
+[Train] Ep  172 | Reward: -1200.85
+[Train] Ep  173 | Reward: -848.59
+[Train] Ep  174 | Reward: -961.90
+[Eval]	 Ep  175 | Reward: 514.87 ± 1078.36 | Length: 402
+[Train] Ep  175 | Reward: -1104.67
+[Train] Ep  176 | Reward: 2695.24
+[Train] Ep  177 | Reward: 2497.65
+[Train] Ep  178 | Reward: -832.09
+[Train] Ep  179 | Reward: 2694.98
+[Eval]	 Ep  180 | Reward: 1702.17 ± 1216.32 | Length: 201
+[Train] Ep  180 | Reward: -302.81
+[Train] Ep  181 | Reward: -391.49
+[Train] Ep  182 | Reward: 1251.89
+[Train] Ep  183 | Reward: -867.99
+[Train] Ep  184 | Reward: 2582.48
+[Eval]	 Ep  185 | Reward: 522.97 ± 1086.94 | Length: 400
+[Train] Ep  185 | Reward: -945.67
+[Train] Ep  186 | Reward: -1179.16
+[Train] Ep  187 | Reward: -1035.40
+[Train] Ep  188 | Reward: -651.14
+[Train] Ep  189 | Reward: -805.09
+[Eval]	 Ep  190 | Reward: 489.10 ± 1103.70 | Length: 400
+[Train] Ep  190 | Reward: -436.21
+[Train] Ep  191 | Reward: -1019.51
+[Train] Ep  192 | Reward: -643.51
+[Train] Ep  193 | Reward: -517.01
+[Train] Ep  194 | Reward: -894.42
+[Eval]	 Ep  195 | Reward: 522.49 ± 1086.97 | Length: 400
+[Train] Ep  195 | Reward: -852.99
+[Train] Ep  196 | Reward: -647.90
+[Train] Ep  197 | Reward: -721.65
+[Train] Ep  198 | Reward: -832.00
+[Train] Ep  199 | Reward: -909.65
+[Eval]	 Ep  200 | Reward: 614.78 ± 1068.44 | Length: 400
+[Train] Ep  200 | Reward: -770.87
+[Train] Ep  201 | Reward: -626.77
+[Train] Ep  202 | Reward: -839.68
+[Train] Ep  203 | Reward: 2694.91
+[Train] Ep  204 | Reward: -705.58
+[Eval]	 Ep  205 | Reward: 899.71 ± 1082.89 | Length: 358
+[Train] Ep  205 | Reward: -846.33
+[Train] Ep  206 | Reward: -679.73
+[Train] Ep  207 | Reward: -628.51
+[Train] Ep  208 | Reward: -847.82
+[Train] Ep  209 | Reward: -822.63
+[Eval]	 Ep  210 | Reward: 98.12 ± 105.72 | Length: 500
+[Train] Ep  210 | Reward: -924.89
+[Train] Ep  211 | Reward: -648.95
+[Train] Ep  212 | Reward: 2695.00
+[Train] Ep  213 | Reward: -708.67
+[Train] Ep  214 | Reward: -718.17
+[Eval]	 Ep  215 | Reward: 14.95 ± 66.22 | Length: 500
+[Train] Ep  215 | Reward: -716.44
+[Train] Ep  216 | Reward: 2364.02
+[Train] Ep  217 | Reward: -933.87
+[Train] Ep  218 | Reward: 2695.27
+[Train] Ep  219 | Reward: 1646.24
+[Eval]	 Ep  220 | Reward: 568.67 ± 1071.44 | Length: 400
+[Train] Ep  220 | Reward: -518.63
+[Train] Ep  221 | Reward: -618.39
+[Train] Ep  222 | Reward: -312.62
+[Train] Ep  223 | Reward: -878.37
+[Train] Ep  224 | Reward: -301.22
+[Eval]	 Ep  225 | Reward: 1174.70 ± 1257.69 | Length: 300
+[Train] Ep  225 | Reward: 2542.18
+[Train] Ep  226 | Reward: 1036.95
+[Train] Ep  227 | Reward: -805.39
+[Train] Ep  228 | Reward: -840.46
+[Train] Ep  229 | Reward: 2697.34
+[Eval]	 Ep  230 | Reward: 733.03 ± 1041.28 | Length: 381
+[Train] Ep  230 | Reward: -362.00
+[Train] Ep  231 | Reward: -524.63
+[Train] Ep  232 | Reward: -825.85
+[Train] Ep  233 | Reward: -246.10
+[Train] Ep  234 | Reward: -576.47
+[Eval]	 Ep  235 | Reward: 90.67 ± 177.99 | Length: 500
+[Train] Ep  235 | Reward: -439.42
+[Train] Ep  236 | Reward: -435.39
+[Train] Ep  237 | Reward: -333.81
+[Train] Ep  238 | Reward: -244.00
+[Train] Ep  239 | Reward: -400.94
+[Eval]	 Ep  240 | Reward: 526.19 ± 1084.56 | Length: 400
+[Train] Ep  240 | Reward: 213.70
+[Train] Ep  241 | Reward: -414.58
+[Train] Ep  242 | Reward: 106.53
+[Train] Ep  243 | Reward: -420.06
+[Train] Ep  244 | Reward: -363.31
+[Eval]	 Ep  245 | Reward: 975.62 ± 1135.00 | Length: 331
+[Train] Ep  245 | Reward: -94.92
+[Train] Ep  246 | Reward: -355.75
+[Train] Ep  247 | Reward: -466.24
+[Train] Ep  248 | Reward: -504.55
+[Train] Ep  249 | Reward: -459.79
+[Eval]	 Ep  250 | Reward: 1689.61 ± 1180.22 | Length: 201
+[Train] Ep  250 | Reward: -208.82
+[Train] Ep  251 | Reward: -478.03
+[Train] Ep  252 | Reward: -31.91
+[Train] Ep  253 | Reward: -329.84
+[Train] Ep  254 | Reward: -510.93
+[Eval]	 Ep  255 | Reward: 1049.35 ± 1344.66 | Length: 300
+[Train] Ep  255 | Reward: -585.24
+[Train] Ep  256 | Reward: -233.31
+[Train] Ep  257 | Reward: -565.47
+[Train] Ep  258 | Reward: -558.40
+[Train] Ep  259 | Reward: -534.03
+[Eval]	 Ep  260 | Reward: 119.97 ± 196.46 | Length: 498
+[Train] Ep  260 | Reward: -416.74
+[Train] Ep  261 | Reward: 2694.95
+[Train] Ep  262 | Reward: -481.39
+[Train] Ep  263 | Reward: -350.69
+[Train] Ep  264 | Reward: -707.19
+[Eval]	 Ep  265 | Reward: 603.10 ± 1071.61 | Length: 400
+[Train] Ep  265 | Reward: -239.66
+[Train] Ep  266 | Reward: -1379.90
+[Train] Ep  267 | Reward: 2696.62
+[Train] Ep  268 | Reward: -145.65
+[Train] Ep  269 | Reward: 61.95
+[Eval]	 Ep  270 | Reward: 1458.71 ± 965.91 | Length: 266
+[Train] Ep  270 | Reward: -1261.34
+[Train] Ep  271 | Reward: 2695.36
+[Train] Ep  272 | Reward: -400.71
+[Train] Ep  273 | Reward: 155.14
+[Train] Ep  274 | Reward: -1282.10
+[Eval]	 Ep  275 | Reward: 1048.22 ± 1097.71 | Length: 327
+[Train] Ep  275 | Reward: -192.21
+[Train] Ep  276 | Reward: -255.64
+[Train] Ep  277 | Reward: -809.84
+[Train] Ep  278 | Reward: -2642.87
+[Train] Ep  279 | Reward: -384.55
+[Eval]	 Ep  280 | Reward: 119.68 ± 194.95 | Length: 500
+[Train] Ep  280 | Reward: 2663.90
+[Train] Ep  281 | Reward: -76.85
+[Train] Ep  282 | Reward: -336.90
+[Train] Ep  283 | Reward: -484.66
+[Train] Ep  284 | Reward: -2418.82
+[Eval]	 Ep  285 | Reward: 643.06 ± 1040.29 | Length: 400
+[Train] Ep  285 | Reward: -433.36
+[Train] Ep  286 | Reward: -363.77
+[Train] Ep  287 | Reward: -1440.24
+[Train] Ep  288 | Reward: 1.37
+[Train] Ep  289 | Reward: -290.33
+[Eval]	 Ep  290 | Reward: 98.15 ± 188.26 | Length: 500
+[Train] Ep  290 | Reward: -445.07
+[Train] Ep  291 | Reward: 969.05
+[Train] Ep  292 | Reward: 2694.95
+[Train] Ep  293 | Reward: -395.95
+[Train] Ep  294 | Reward: -1984.26
+[Eval]	 Ep  295 | Reward: 1573.69 ± 1326.97 | Length: 206
+[Train] Ep  295 | Reward: 2693.18
+[Train] Ep  296 | Reward: -2355.04
+[Train] Ep  297 | Reward: 2695.31
+[Train] Ep  298 | Reward: 2695.45
+[Train] Ep  299 | Reward: -1160.65
+[Eval]	 Ep  300 | Reward: -1940.61 ± 2389.46 | Length: 500
+[Train] Ep  300 | Reward: 2695.37
+[Train] Ep  301 | Reward: -2697.21
+[Train] Ep  302 | Reward: -1553.21
+[Train] Ep  303 | Reward: -331.72
+[Train] Ep  304 | Reward: -714.48
+[Eval]	 Ep  305 | Reward: 1054.58 ± 1203.38 | Length: 315
+[Train] Ep  305 | Reward: 2694.95
+[Train] Ep  306 | Reward: -1927.16
+[Train] Ep  307 | Reward: -3173.23
+[Train] Ep  308 | Reward: -2295.57
+[Train] Ep  309 | Reward: -2636.88
+[Eval]	 Ep  310 | Reward: -1377.33 ± 2741.54 | Length: 415
+[Train] Ep  310 | Reward: 2620.07
+[Train] Ep  311 | Reward: -1409.02
+[Train] Ep  312 | Reward: -327.71
+[Train] Ep  313 | Reward: -2686.63
+[Train] Ep  314 | Reward: -1354.33
+[Eval]	 Ep  315 | Reward: -4658.23 ± 122.93 | Length: 500
+[Train] Ep  315 | Reward: -3028.13
+[Train] Ep  316 | Reward: 2688.37
+[Train] Ep  317 | Reward: -742.10
+[Train] Ep  318 | Reward: -1536.07
+[Train] Ep  319 | Reward: -1955.12
+[Eval]	 Ep  320 | Reward: 485.49 ± 1105.39 | Length: 400
+[Train] Ep  320 | Reward: 2477.49
+[Train] Ep  321 | Reward: -2744.82
+[Train] Ep  322 | Reward: -1487.38
+[Train] Ep  323 | Reward: -2354.31
+[Train] Ep  324 | Reward: -1507.71
+[Eval]	 Ep  325 | Reward: 675.30 ± 1031.94 | Length: 400
+[Train] Ep  325 | Reward: -1362.24
+[Train] Ep  326 | Reward: 2695.06
+[Train] Ep  327 | Reward: -1587.83
+[Train] Ep  328 | Reward: -1153.60
+[Train] Ep  329 | Reward: -1391.08
+[Eval]	 Ep  330 | Reward: 175.53 ± 2620.82 | Length: 301
+[Train] Ep  330 | Reward: -863.93
+[Train] Ep  331 | Reward: -47.55
+[Train] Ep  332 | Reward: -1948.71
+[Train] Ep  333 | Reward: -1213.47
+[Train] Ep  334 | Reward: -387.41
+[Eval]	 Ep  335 | Reward: 1600.57 ± 1340.58 | Length: 201
+[Train] Ep  335 | Reward: -1581.81
+[Train] Ep  336 | Reward: -236.40
+[Train] Ep  337 | Reward: 2695.02
+[Train] Ep  338 | Reward: -347.50
+[Train] Ep  339 | Reward: -806.20
+[Eval]	 Ep  340 | Reward: 0.18 ± 68.41 | Length: 500
+[Train] Ep  340 | Reward: 2694.98
+[Train] Ep  341 | Reward: -901.52
+[Train] Ep  342 | Reward: 2695.48
+[Train] Ep  343 | Reward: -934.38
+[Train] Ep  344 | Reward: 2695.03
+[Eval]	 Ep  345 | Reward: -707.27 ± 1881.97 | Length: 500
+[Train] Ep  345 | Reward: 2696.19
+[Train] Ep  346 | Reward: -2167.07
+[Train] Ep  347 | Reward: 2694.93
+[Train] Ep  348 | Reward: -1323.71
+[Train] Ep  349 | Reward: -398.23
+[Eval]	 Ep  350 | Reward: 528.26 ± 2945.91 | Length: 201
+[Train] Ep  350 | Reward: -177.10
+[Train] Ep  351 | Reward: 2694.94
+[Train] Ep  352 | Reward: -1683.77
+[Train] Ep  353 | Reward: -166.52
+[Train] Ep  354 | Reward: 2579.96
+[Eval]	 Ep  355 | Reward: -352.61 ± 2478.90 | Length: 405
+[Train] Ep  355 | Reward: 2695.79
+[Train] Ep  356 | Reward: -1051.98
+[Train] Ep  357 | Reward: -326.46
+[Train] Ep  358 | Reward: -2916.34
+[Train] Ep  359 | Reward: 2536.08
+[Eval]	 Ep  360 | Reward: -390.12 ± 1018.38 | Length: 472
+[Train] Ep  360 | Reward: 2644.09
+[Train] Ep  361 | Reward: -1208.92
+[Train] Ep  362 | Reward: -2888.61
+[Train] Ep  363 | Reward: -57.03
+[Train] Ep  364 | Reward: -2295.30
+[Eval]	 Ep  365 | Reward: 1152.77 ± 1261.26 | Length: 302
+[Train] Ep  365 | Reward: 1319.95
+[Train] Ep  366 | Reward: -1222.33
+[Train] Ep  367 | Reward: 2695.09
+[Train] Ep  368 | Reward: -785.55
+[Train] Ep  369 | Reward: -1215.09
+[Eval]	 Ep  370 | Reward: 270.71 ± 591.87 | Length: 455
+[Train] Ep  370 | Reward: 2694.93
+[Train] Ep  371 | Reward: -654.97
+[Train] Ep  372 | Reward: -1849.34
+[Train] Ep  373 | Reward: 2038.85
+[Train] Ep  374 | Reward: -629.46
+[Eval]	 Ep  375 | Reward: 693.13 ± 1022.62 | Length: 400
+[Train] Ep  375 | Reward: 2695.01
+[Train] Ep  376 | Reward: 2694.92
+[Train] Ep  377 | Reward: -947.21
+[Train] Ep  378 | Reward: 2696.47
+[Train] Ep  379 | Reward: 2695.11
+[Eval]	 Ep  380 | Reward: 637.23 ± 1572.75 | Length: 322
+[Train] Ep  380 | Reward: -2869.00
+[Train] Ep  381 | Reward: -895.41
+[Train] Ep  382 | Reward: -2511.15
+[Train] Ep  383 | Reward: -2810.60
+[Train] Ep  384 | Reward: -1094.60
+[Eval]	 Ep  385 | Reward: -598.22 ± 2929.32 | Length: 319
+[Train] Ep  385 | Reward: -1513.77
+[Train] Ep  386 | Reward: -1053.19
+[Train] Ep  387 | Reward: -1852.95
+[Train] Ep  388 | Reward: 2483.86
+[Train] Ep  389 | Reward: -409.00
+[Eval]	 Ep  390 | Reward: -448.76 ± 2426.58 | Length: 405
+[Train] Ep  390 | Reward: -419.28
+[Train] Ep  391 | Reward: 2694.92
+[Train] Ep  392 | Reward: 1786.18
+[Train] Ep  393 | Reward: -128.61
+[Train] Ep  394 | Reward: -274.27
+[Eval]	 Ep  395 | Reward: 213.63 ± 1345.69 | Length: 403
+[Train] Ep  395 | Reward: 2163.07
+[Train] Ep  396 | Reward: 2664.45
+[Train] Ep  397 | Reward: 2695.06
+[Train] Ep  398 | Reward: 2699.84
+[Train] Ep  399 | Reward: -70.77
+[Eval]	 Ep  400 | Reward: 49.96 ± 114.41 | Length: 500
+[Train] Ep  400 | Reward: 2695.26
+[Train] Ep  401 | Reward: 2694.99
+[Train] Ep  402 | Reward: 2651.93
+[Train] Ep  403 | Reward: -150.46
+[Train] Ep  404 | Reward: -322.87
+[Eval]	 Ep  405 | Reward: 637.13 ± 2932.32 | Length: 201
+[Train] Ep  405 | Reward: -573.56
+[Train] Ep  406 | Reward: -1168.14
+[Train] Ep  407 | Reward: 2696.11
+[Train] Ep  408 | Reward: -1295.61
+[Train] Ep  409 | Reward: -2308.71
+[Eval]	 Ep  410 | Reward: 564.26 ± 1038.43 | Length: 403
+[Train] Ep  410 | Reward: -1848.02
+[Train] Ep  411 | Reward: -928.57
+[Train] Ep  412 | Reward: -1275.99
+[Train] Ep  413 | Reward: 1741.60
+[Train] Ep  414 | Reward: -50.54
+[Eval]	 Ep  415 | Reward: -1006.76 ± 1969.22 | Length: 500
+[Train] Ep  415 | Reward: 2694.97
+[Train] Ep  416 | Reward: -162.92
+[Train] Ep  417 | Reward: -1147.27
+[Train] Ep  418 | Reward: -55.20
+[Train] Ep  419 | Reward: 2695.18
+[Eval]	 Ep  420 | Reward: -26.36 ± 46.58 | Length: 500
+[Train] Ep  420 | Reward: -791.89
+[Train] Ep  421 | Reward: 2695.03
+[Train] Ep  422 | Reward: -205.76
+[Train] Ep  423 | Reward: 2695.11
+[Train] Ep  424 | Reward: -343.80
+[Eval]	 Ep  425 | Reward: 580.59 ± 1071.12 | Length: 400
+[Train] Ep  425 | Reward: -1906.74
+[Train] Ep  426 | Reward: -339.79
+[Train] Ep  427 | Reward: -1303.95
+[Train] Ep  428 | Reward: 2694.96
+[Train] Ep  429 | Reward: 2695.26
+[Eval]	 Ep  430 | Reward: 1611.52 ± 1327.13 | Length: 201
+[Train] Ep  430 | Reward: 2694.94
+[Train] Ep  431 | Reward: 1630.54
+[Train] Ep  432 | Reward: 2696.88
+[Train] Ep  433 | Reward: -177.10
+[Train] Ep  434 | Reward: -720.57
+[Eval]	 Ep  435 | Reward: 1145.61 ± 1277.67 | Length: 300
+[Train] Ep  435 | Reward: -1691.03
+[Train] Ep  436 | Reward: 2695.15
+[Train] Ep  437 | Reward: -53.92
+[Train] Ep  438 | Reward: -814.72
+[Train] Ep  439 | Reward: -522.84
+[Eval]	 Ep  440 | Reward: 583.36 ± 2911.36 | Length: 215
+[Train] Ep  440 | Reward: -458.29
+[Train] Ep  441 | Reward: -535.79
+[Train] Ep  442 | Reward: -1010.79
+[Train] Ep  443 | Reward: -1263.86
+[Train] Ep  444 | Reward: -639.82
+[Eval]	 Ep  445 | Reward: 1114.90 ± 1261.41 | Length: 305
+[Train] Ep  445 | Reward: 1937.65
+[Train] Ep  446 | Reward: 183.20
+[Train] Ep  447 | Reward: 2695.01
+[Train] Ep  448 | Reward: -36.57
+[Train] Ep  449 | Reward: 2695.11
+[Eval]	 Ep  450 | Reward: 77.09 ± 147.70 | Length: 500
+[Train] Ep  450 | Reward: -1117.04
+[Train] Ep  451 | Reward: -585.44
+[Train] Ep  452 | Reward: 2694.46
+[Train] Ep  453 | Reward: -801.00
+[Train] Ep  454 | Reward: 2588.58
+[Eval]	 Ep  455 | Reward: -21.82 ± 34.88 | Length: 500
+[Train] Ep  455 | Reward: 500.75
+[Train] Ep  456 | Reward: 493.75
+[Train] Ep  457 | Reward: -232.61
+[Train] Ep  458 | Reward: -578.46
+[Train] Ep  459 | Reward: -339.76
+[Eval]	 Ep  460 | Reward: 132.34 ± 179.22 | Length: 500
+[Train] Ep  460 | Reward: -919.89
+[Train] Ep  461 | Reward: -355.13
+[Train] Ep  462 | Reward: 1992.05
+[Train] Ep  463 | Reward: 2694.92
+[Train] Ep  464 | Reward: -655.98
+[Eval]	 Ep  465 | Reward: 1322.09 ± 1204.25 | Length: 262
+[Train] Ep  465 | Reward: -508.35
+[Train] Ep  466 | Reward: 238.11
+[Train] Ep  467 | Reward: -31.08
+[Train] Ep  468 | Reward: -4.92
+[Train] Ep  469 | Reward: -391.94
+[Eval]	 Ep  470 | Reward: 464.32 ± 934.54 | Length: 421
+[Train] Ep  470 | Reward: -65.28
+[Train] Ep  471 | Reward: 192.59
+[Train] Ep  472 | Reward: 285.30
+[Train] Ep  473 | Reward: -164.64
+[Train] Ep  474 | Reward: -1921.07
+[Eval]	 Ep  475 | Reward: 901.48 ± 1103.34 | Length: 343
+[Train] Ep  475 | Reward: -33.74
+[Train] Ep  476 | Reward: -511.99
+[Train] Ep  477 | Reward: -1753.78
+[Train] Ep  478 | Reward: -101.53
+[Train] Ep  479 | Reward: 538.85
+[Eval]	 Ep  480 | Reward: 451.40 ± 871.96 | Length: 432
+[Train] Ep  480 | Reward: 2694.93
+[Train] Ep  481 | Reward: -1303.05
+[Train] Ep  482 | Reward: -40.71
+[Train] Ep  483 | Reward: -2504.21
+[Train] Ep  484 | Reward: 185.67
+[Eval]	 Ep  485 | Reward: 569.57 ± 1067.07 | Length: 400
+[Train] Ep  485 | Reward: 1507.14
+[Train] Ep  486 | Reward: 1857.06
+[Train] Ep  487 | Reward: -27.65
+[Train] Ep  488 | Reward: -1866.10
+[Train] Ep  489 | Reward: -2249.22
+[Eval]	 Ep  490 | Reward: -105.34 ± 2689.05 | Length: 300
+[Train] Ep  490 | Reward: 2695.00
+[Train] Ep  491 | Reward: -2123.43
+[Train] Ep  492 | Reward: 2695.30
+[Train] Ep  493 | Reward: 2695.14
+[Train] Ep  494 | Reward: -3720.16
+[Eval]	 Ep  495 | Reward: 1188.14 ± 1234.38 | Length: 302
+[Train] Ep  495 | Reward: -599.72
+[Train] Ep  496 | Reward: -3243.72
+[Train] Ep  497 | Reward: 2711.23
+[Train] Ep  498 | Reward: -2934.22
+[Train] Ep  499 | Reward: 2301.12
+[Eval]	 Ep  500 | Reward: 1612.31 ± 1326.53 | Length: 201
+[Train] Ep  500 | Reward: -340.84
+[Train] Ep  501 | Reward: 34.81
+[Train] Ep  502 | Reward: -3154.42
+[Train] Ep  503 | Reward: -1305.92
+[Train] Ep  504 | Reward: -39.78
+[Eval]	 Ep  505 | Reward: 615.27 ± 1052.80 | Length: 400
+[Train] Ep  505 | Reward: -3131.83
+[Train] Ep  506 | Reward: -2666.23
+[Train] Ep  507 | Reward: 317.18
+[Train] Ep  508 | Reward: 66.00
+[Train] Ep  509 | Reward: -1599.13
+[Eval]	 Ep  510 | Reward: -1375.68 ± 1860.10 | Length: 500
+[Train] Ep  510 | Reward: 2697.58
+[Train] Ep  511 | Reward: -1112.21
+[Train] Ep  512 | Reward: -799.47
+[Train] Ep  513 | Reward: 2694.93
+[Train] Ep  514 | Reward: 0.87
+[Eval]	 Ep  515 | Reward: 561.35 ± 1071.55 | Length: 400
+[Train] Ep  515 | Reward: 2660.18
+[Train] Ep  516 | Reward: -261.68
+[Train] Ep  517 | Reward: -5.14
+[Train] Ep  518 | Reward: -1517.53
+[Train] Ep  519 | Reward: -1139.96
+[Eval]	 Ep  520 | Reward: -101.60 ± 2852.57 | Length: 243
+[Train] Ep  520 | Reward: -1046.34
+[Train] Ep  521 | Reward: -1207.67
+[Train] Ep  522 | Reward: -17.83
+[Train] Ep  523 | Reward: -113.41
+[Train] Ep  524 | Reward: 417.83
+[Eval]	 Ep  525 | Reward: 582.68 ± 1070.19 | Length: 400
+[Train] Ep  525 | Reward: 36.80
+[Train] Ep  526 | Reward: 393.43
+[Train] Ep  527 | Reward: 1811.91
+[Train] Ep  528 | Reward: 2694.99
+[Train] Ep  529 | Reward: -3387.73
+[Eval]	 Ep  530 | Reward: 1606.74 ± 1311.35 | Length: 203
+[Train] Ep  530 | Reward: 2697.15
+[Train] Ep  531 | Reward: -3118.79
+[Train] Ep  532 | Reward: -522.98
+[Train] Ep  533 | Reward: 42.70
+[Train] Ep  534 | Reward: -9.35
+[Eval]	 Ep  535 | Reward: 1147.52 ± 1275.04 | Length: 300
+[Train] Ep  535 | Reward: 2695.07
+[Train] Ep  536 | Reward: -3300.24
+[Train] Ep  537 | Reward: 40.16
+[Train] Ep  538 | Reward: -532.42
+[Train] Ep  539 | Reward: -1822.53
+[Eval]	 Ep  540 | Reward: -1899.36 ± 2321.57 | Length: 500
+[Train] Ep  540 | Reward: 129.69
+[Train] Ep  541 | Reward: -2929.67
+[Train] Ep  542 | Reward: 2694.97
+[Train] Ep  543 | Reward: 2696.43
+[Train] Ep  544 | Reward: 186.71
+[Eval]	 Ep  545 | Reward: 1635.85 ± 1297.53 | Length: 201
+[Train] Ep  545 | Reward: 192.64
+[Train] Ep  546 | Reward: 3.83
+[Train] Ep  547 | Reward: 2695.50
+[Train] Ep  548 | Reward: -24.67
+[Train] Ep  549 | Reward: 142.82
+[Eval]	 Ep  550 | Reward: 673.60 ± 1026.88 | Length: 400
+[Train] Ep  550 | Reward: 279.92
+[Train] Ep  551 | Reward: 2694.92
+[Train] Ep  552 | Reward: 391.39
+[Train] Ep  553 | Reward: 2556.94
+[Train] Ep  554 | Reward: 2695.76
+[Eval]	 Ep  555 | Reward: 748.34 ± 981.31 | Length: 400
+[Train] Ep  555 | Reward: 2695.37
+[Train] Ep  556 | Reward: -50.90
+[Train] Ep  557 | Reward: 24.41
+[Train] Ep  558 | Reward: 2695.28
+[Train] Ep  559 | Reward: 54.60
+[Eval]	 Ep  560 | Reward: 417.34 ± 863.96 | Length: 423
+[Train] Ep  560 | Reward: 226.91
+[Train] Ep  561 | Reward: -230.83
+[Train] Ep  562 | Reward: 250.54
+[Train] Ep  563 | Reward: -202.80
+[Train] Ep  564 | Reward: 2695.04
+[Eval]	 Ep  565 | Reward: 634.72 ± 1057.41 | Length: 387
+[Train] Ep  565 | Reward: 170.79
+[Train] Ep  566 | Reward: 52.12
+[Train] Ep  567 | Reward: -120.26
+[Train] Ep  568 | Reward: -21.79
+[Train] Ep  569 | Reward: -11.95
+[Eval]	 Ep  570 | Reward: 555.28 ± 1072.17 | Length: 400
+[Train] Ep  570 | Reward: 15.67
+[Train] Ep  571 | Reward: -48.56
+[Train] Ep  572 | Reward: 2693.20
+[Train] Ep  573 | Reward: -712.94
+[Train] Ep  574 | Reward: -76.80
+[Eval]	 Ep  575 | Reward: 1140.73 ± 1281.90 | Length: 300
+[Train] Ep  575 | Reward: 819.77
+[Train] Ep  576 | Reward: -0.11
+[Train] Ep  577 | Reward: -34.44
+[Train] Ep  578 | Reward: -63.22
+[Train] Ep  579 | Reward: 2695.79
+[Eval]	 Ep  580 | Reward: -473.97 ± 2487.53 | Length: 400
+[Train] Ep  580 | Reward: -21.62
+[Train] Ep  581 | Reward: -380.75
+[Train] Ep  582 | Reward: 306.15
+[Train] Ep  583 | Reward: -0.11
+[Train] Ep  584 | Reward: -12.73
+[Eval]	 Ep  585 | Reward: 1101.74 ± 1277.84 | Length: 305
+[Train] Ep  585 | Reward: 127.35
+[Train] Ep  586 | Reward: 2521.57
+[Train] Ep  587 | Reward: -2991.92
+[Train] Ep  588 | Reward: 321.36
+[Train] Ep  589 | Reward: 2695.13
+[Eval]	 Ep  590 | Reward: 466.97 ± 2784.87 | Length: 243
+[Train] Ep  590 | Reward: -996.76
+[Train] Ep  591 | Reward: 2487.38
+[Train] Ep  592 | Reward: 2695.01
+[Train] Ep  593 | Reward: -688.81
+[Train] Ep  594 | Reward: 190.50
+[Eval]	 Ep  595 | Reward: 494.22 ± 1088.48 | Length: 402
+[Train] Ep  595 | Reward: 2694.92
+[Train] Ep  596 | Reward: 2398.17
+[Train] Ep  597 | Reward: -84.37
+[Train] Ep  598 | Reward: 2032.83
+[Train] Ep  599 | Reward: 170.16
+[Eval]	 Ep  600 | Reward: 627.20 ± 990.85 | Length: 404
+[Train] Ep  600 | Reward: 2694.92
+[Train] Ep  601 | Reward: 80.11
+[Train] Ep  602 | Reward: -2858.26
+[Train] Ep  603 | Reward: -70.83
+[Train] Ep  604 | Reward: -665.17
+[Eval]	 Ep  605 | Reward: 280.33 ± 2578.38 | Length: 303
+[Train] Ep  605 | Reward: -30.24
+[Train] Ep  606 | Reward: 43.24
+[Train] Ep  607 | Reward: -3229.74
+[Train] Ep  608 | Reward: -500.58
+[Train] Ep  609 | Reward: 289.86
+[Eval]	 Ep  610 | Reward: 535.19 ± 1080.77 | Length: 400
+[Train] Ep  610 | Reward: 2694.92
+[Train] Ep  611 | Reward: -119.42
+[Train] Ep  612 | Reward: 2695.00
+[Train] Ep  613 | Reward: -366.00
+[Train] Ep  614 | Reward: -36.31
+[Eval]	 Ep  615 | Reward: 367.16 ± 831.99 | Length: 434
+[Train] Ep  615 | Reward: -84.33
+[Train] Ep  616 | Reward: -76.30
+[Train] Ep  617 | Reward: 31.95
+[Train] Ep  618 | Reward: 156.74
+[Train] Ep  619 | Reward: 2694.95
+[Eval]	 Ep  620 | Reward: 622.87 ± 1046.62 | Length: 400
+[Train] Ep  620 | Reward: -59.06
+[Train] Ep  621 | Reward: -5.95
+[Train] Ep  622 | Reward: 95.42
+[Train] Ep  623 | Reward: -68.62
+[Train] Ep  624 | Reward: -53.10
+[Eval]	 Ep  625 | Reward: -784.69 ± 1921.93 | Length: 500
+[Train] Ep  625 | Reward: 174.64
+[Train] Ep  626 | Reward: 331.98
+[Train] Ep  627 | Reward: 2695.20
+[Train] Ep  628 | Reward: -276.09
+[Train] Ep  629 | Reward: -21.32
+[Eval]	 Ep  630 | Reward: 1055.24 ± 1269.25 | Length: 311
+[Train] Ep  630 | Reward: -38.44
+[Train] Ep  631 | Reward: 1165.13
+[Train] Ep  632 | Reward: 28.07
+[Train] Ep  633 | Reward: 43.52
+[Train] Ep  634 | Reward: -1020.34
+[Eval]	 Ep  635 | Reward: -5.42 ± 43.67 | Length: 500
+[Train] Ep  635 | Reward: -1993.03
+[Train] Ep  636 | Reward: 36.59
+[Train] Ep  637 | Reward: 99.62
+[Train] Ep  638 | Reward: -21.31
+[Train] Ep  639 | Reward: 526.42
+[Eval]	 Ep  640 | Reward: -801.17 ± 1850.43 | Length: 500
+[Train] Ep  640 | Reward: -44.85
+[Train] Ep  641 | Reward: 204.79
+[Train] Ep  642 | Reward: -339.66
+[Train] Ep  643 | Reward: 235.14
+[Train] Ep  644 | Reward: 205.51
+[Eval]	 Ep  645 | Reward: -287.39 ± 2332.71 | Length: 400
+[Train] Ep  645 | Reward: 2695.35
+[Train] Ep  646 | Reward: -1425.35
+[Train] Ep  647 | Reward: -2853.47
+[Train] Ep  648 | Reward: 1785.82
+[Train] Ep  649 | Reward: 53.47
+[Eval]	 Ep  650 | Reward: 544.69 ± 1075.86 | Length: 401
+[Train] Ep  650 | Reward: 12.99
+[Train] Ep  651 | Reward: 2695.36
+[Train] Ep  652 | Reward: 24.13
+[Train] Ep  653 | Reward: 75.74
+[Train] Ep  654 | Reward: 227.85
+[Eval]	 Ep  655 | Reward: -826.61 ± 2207.19 | Length: 391
+[Train] Ep  655 | Reward: 2695.41
+[Train] Ep  656 | Reward: -18.24
+[Train] Ep  657 | Reward: -353.55
+[Train] Ep  658 | Reward: -308.43
+[Train] Ep  659 | Reward: -3628.46
+[Eval]	 Ep  660 | Reward: 1180.28 ± 1207.50 | Length: 305
+[Train] Ep  660 | Reward: -1860.93
+[Train] Ep  661 | Reward: 2695.00
+[Train] Ep  662 | Reward: 1121.18
+[Train] Ep  663 | Reward: -2412.33
+[Train] Ep  664 | Reward: -80.77
+[Eval]	 Ep  665 | Reward: 805.86 ± 1664.55 | Length: 300
+[Train] Ep  665 | Reward: -1339.59
+[Train] Ep  666 | Reward: -582.16
+[Train] Ep  667 | Reward: -328.52
+[Train] Ep  668 | Reward: -919.58
+[Train] Ep  669 | Reward: 2299.24
+[Eval]	 Ep  670 | Reward: -41.34 ± 53.97 | Length: 500
+[Train] Ep  670 | Reward: -99.48
+[Train] Ep  671 | Reward: 103.20
+[Train] Ep  672 | Reward: 2694.94
+[Train] Ep  673 | Reward: -64.58
+[Train] Ep  674 | Reward: 105.28
+[Eval]	 Ep  675 | Reward: 205.42 ± 2124.89 | Length: 334
+[Train] Ep  675 | Reward: 29.14
+[Train] Ep  676 | Reward: 115.32
+[Train] Ep  677 | Reward: -1752.60
+[Train] Ep  678 | Reward: -3328.02
+[Train] Ep  679 | Reward: -958.56
+[Eval]	 Ep  680 | Reward: 47.83 ± 2582.26 | Length: 322
+[Train] Ep  680 | Reward: -3030.83
+[Train] Ep  681 | Reward: 2694.94
+[Train] Ep  682 | Reward: -1151.33
+[Train] Ep  683 | Reward: -1420.57
+[Train] Ep  684 | Reward: -741.90
+[Eval]	 Ep  685 | Reward: -282.22 ± 2204.22 | Length: 400
+[Train] Ep  685 | Reward: 2694.95
+[Train] Ep  686 | Reward: -931.27
+[Train] Ep  687 | Reward: 2695.00
+[Train] Ep  688 | Reward: -276.44
+[Train] Ep  689 | Reward: -1841.23
+[Eval]	 Ep  690 | Reward: -1840.03 ± 2281.96 | Length: 500
+[Train] Ep  690 | Reward: 2695.04
+[Train] Ep  691 | Reward: -1108.66
+[Train] Ep  692 | Reward: 2695.14
+[Train] Ep  693 | Reward: -3235.96
+[Train] Ep  694 | Reward: -654.22
+[Eval]	 Ep  695 | Reward: -1767.16 ± 2663.32 | Length: 393
+[Train] Ep  695 | Reward: -2437.41
+[Train] Ep  696 | Reward: -1539.40
+[Train] Ep  697 | Reward: -2197.18
+[Train] Ep  698 | Reward: -1253.55
+[Train] Ep  699 | Reward: -2374.74
+[Eval]	 Ep  700 | Reward: 104.24 ± 232.78 | Length: 500
+[Train] Ep  700 | Reward: -734.93
+[Train] Ep  701 | Reward: -3607.70
+[Train] Ep  702 | Reward: -544.28
+[Train] Ep  703 | Reward: -3269.11
+[Train] Ep  704 | Reward: 2695.08
+[Eval]	 Ep  705 | Reward: -2670.26 ± 2311.57 | Length: 497
+[Train] Ep  705 | Reward: 2608.37
+[Train] Ep  706 | Reward: -2105.88
+[Train] Ep  707 | Reward: -2932.21
+[Train] Ep  708 | Reward: 2695.04
+[Train] Ep  709 | Reward: 1701.82
+[Eval]	 Ep  710 | Reward: 593.42 ± 870.00 | Length: 408
+[Train] Ep  710 | Reward: -682.16
+[Train] Ep  711 | Reward: -37.54
+[Train] Ep  712 | Reward: -3755.56
+[Train] Ep  713 | Reward: 2695.29
+[Train] Ep  714 | Reward: -926.88
+[Eval]	 Ep  715 | Reward: -1669.56 ± 2388.71 | Length: 500
+[Train] Ep  715 | Reward: -1428.89
+[Train] Ep  716 | Reward: -3985.44
+[Train] Ep  717 | Reward: 2698.18
+[Train] Ep  718 | Reward: -5.05
+[Train] Ep  719 | Reward: -1181.76
+[Eval]	 Ep  720 | Reward: 1166.45 ± 1265.94 | Length: 300
+[Train] Ep  720 | Reward: 2694.91
+[Train] Ep  721 | Reward: -1278.19
+[Train] Ep  722 | Reward: -598.47
+[Train] Ep  723 | Reward: 2695.19
+[Train] Ep  724 | Reward: -20.68
+[Eval]	 Ep  725 | Reward: -1717.95 ± 2378.56 | Length: 500
+[Train] Ep  725 | Reward: -45.95
+[Train] Ep  726 | Reward: 2268.90
+[Train] Ep  727 | Reward: 110.11
+[Train] Ep  728 | Reward: -1933.04
+[Train] Ep  729 | Reward: 2694.95
+[Eval]	 Ep  730 | Reward: 629.47 ± 1003.24 | Length: 405
+[Train] Ep  730 | Reward: 2695.49
+[Train] Ep  731 | Reward: 2260.43
+[Train] Ep  732 | Reward: -47.55
+[Train] Ep  733 | Reward: -73.91
+[Train] Ep  734 | Reward: 2686.49
+[Eval]	 Ep  735 | Reward: 1295.39 ± 1232.12 | Length: 276
+[Train] Ep  735 | Reward: 298.74
+[Train] Ep  736 | Reward: 2577.15
+[Train] Ep  737 | Reward: 17.11
+[Train] Ep  738 | Reward: 2694.94
+[Train] Ep  739 | Reward: 334.24
+[Eval]	 Ep  740 | Reward: 1118.07 ± 1288.34 | Length: 300
+[Train] Ep  740 | Reward: 1760.97
+[Train] Ep  741 | Reward: -2614.88
+[Train] Ep  742 | Reward: -3178.99
+[Train] Ep  743 | Reward: -2498.91
+[Train] Ep  744 | Reward: -843.85
+[Eval]	 Ep  745 | Reward: -528.67 ± 2776.61 | Length: 326
+[Train] Ep  745 | Reward: 2694.97
+[Train] Ep  746 | Reward: -3655.85
+[Train] Ep  747 | Reward: -2827.85
+[Train] Ep  748 | Reward: -2769.49
+[Train] Ep  749 | Reward: 2657.60
+[Eval]	 Ep  750 | Reward: 1178.98 ± 1254.24 | Length: 301
+[Train] Ep  750 | Reward: -1065.39
+[Train] Ep  751 | Reward: -2121.22
+[Train] Ep  752 | Reward: 300.71
+[Train] Ep  753 | Reward: -2889.34
+[Train] Ep  754 | Reward: 238.87
+[Eval]	 Ep  755 | Reward: -2269.97 ± 3084.47 | Length: 400
+[Train] Ep  755 | Reward: -3660.49
+[Train] Ep  756 | Reward: 94.94
+[Train] Ep  757 | Reward: 2622.08
+[Train] Ep  758 | Reward: -1753.74
+[Train] Ep  759 | Reward: 25.68
+[Eval]	 Ep  760 | Reward: 726.92 ± 993.00 | Length: 400
+[Train] Ep  760 | Reward: -3694.08
+[Train] Ep  761 | Reward: 2694.92
+[Train] Ep  762 | Reward: -634.50
+[Train] Ep  763 | Reward: -91.03
+[Train] Ep  764 | Reward: 2694.97
+[Eval]	 Ep  765 | Reward: -340.03 ± 2368.04 | Length: 400
+[Train] Ep  765 | Reward: 2695.20
+[Train] Ep  766 | Reward: 2699.05
+[Train] Ep  767 | Reward: -100.72
+[Train] Ep  768 | Reward: -3969.10
+[Train] Ep  769 | Reward: 39.29
+[Eval]	 Ep  770 | Reward: -788.19 ± 2069.27 | Length: 500
+[Train] Ep  770 | Reward: -4108.36
+[Train] Ep  771 | Reward: -1600.24
+[Train] Ep  772 | Reward: -3342.81
+[Train] Ep  773 | Reward: -213.02
+[Train] Ep  774 | Reward: -1099.64
+[Eval]	 Ep  775 | Reward: 1583.37 ± 1239.32 | Length: 213
+[Train] Ep  775 | Reward: 466.29
+[Train] Ep  776 | Reward: -3379.98
+[Train] Ep  777 | Reward: -3023.71
+[Train] Ep  778 | Reward: -423.91
+[Train] Ep  779 | Reward: -2293.93
+[Eval]	 Ep  780 | Reward: 615.94 ± 1051.86 | Length: 400
+[Train] Ep  780 | Reward: 2695.61
+[Train] Ep  781 | Reward: -4321.30
+[Train] Ep  782 | Reward: 104.86
+[Train] Ep  783 | Reward: 2694.94
+[Train] Ep  784 | Reward: 2695.48
+[Eval]	 Ep  785 | Reward: -1285.08 ± 2926.98 | Length: 400
+[Train] Ep  785 | Reward: -1118.91
+[Train] Ep  786 | Reward: 72.13
+[Train] Ep  787 | Reward: -1216.41
+[Train] Ep  788 | Reward: -2789.85
+[Train] Ep  789 | Reward: 2482.52
+[Eval]	 Ep  790 | Reward: 60.84 ± 67.89 | Length: 500
+[Train] Ep  790 | Reward: -3749.04
+[Train] Ep  791 | Reward: 2620.39
+[Train] Ep  792 | Reward: -944.01
+[Train] Ep  793 | Reward: 2695.01
+[Train] Ep  794 | Reward: -1260.84
+[Eval]	 Ep  795 | Reward: -482.36 ± 2205.83 | Length: 425
+[Train] Ep  795 | Reward: -2374.26
+[Train] Ep  796 | Reward: -2522.74
+[Train] Ep  797 | Reward: -177.29
+[Train] Ep  798 | Reward: 2509.96
+[Train] Ep  799 | Reward: 2622.02
+[Eval]	 Ep  800 | Reward: -746.33 ± 2140.31 | Length: 463
+[Train] Ep  800 | Reward: -2686.22
+[Train] Ep  801 | Reward: 2497.48
+[Train] Ep  802 | Reward: 2695.25
+[Train] Ep  803 | Reward: -63.84
+[Train] Ep  804 | Reward: -2507.86
+[Eval]	 Ep  805 | Reward: 522.86 ± 1086.53 | Length: 400
+[Train] Ep  805 | Reward: 202.08
+[Train] Ep  806 | Reward: -1114.73
+[Train] Ep  807 | Reward: -1351.02
+[Train] Ep  808 | Reward: 2694.93
+[Train] Ep  809 | Reward: -412.24
+[Eval]	 Ep  810 | Reward: 89.62 ± 190.87 | Length: 500
+[Train] Ep  810 | Reward: 2581.87
+[Train] Ep  811 | Reward: -5.04
+[Train] Ep  812 | Reward: -283.13
+[Train] Ep  813 | Reward: 4.65
+[Train] Ep  814 | Reward: 18.38
+[Eval]	 Ep  815 | Reward: 487.12 ± 2809.29 | Length: 250
+[Train] Ep  815 | Reward: 240.28
+[Train] Ep  816 | Reward: -4381.07
+[Train] Ep  817 | Reward: 2463.26
+[Train] Ep  818 | Reward: -45.57
+[Train] Ep  819 | Reward: 1709.69
+[Eval]	 Ep  820 | Reward: 65.64 ± 2799.76 | Length: 304
+[Train] Ep  820 | Reward: -546.11
+[Train] Ep  821 | Reward: 286.15
+[Train] Ep  822 | Reward: -4364.32
+[Train] Ep  823 | Reward: 1408.66
+[Train] Ep  824 | Reward: -67.44
+[Eval]	 Ep  825 | Reward: 1126.05 ± 1281.44 | Length: 265
+[Train] Ep  825 | Reward: 2694.99
+[Train] Ep  826 | Reward: 2694.97
+[Train] Ep  827 | Reward: -2913.95
+[Train] Ep  828 | Reward: -1589.59
+[Train] Ep  829 | Reward: 65.76
+[Eval]	 Ep  830 | Reward: 999.28 ± 1241.87 | Length: 317
+[Train] Ep  830 | Reward: 2695.07
+[Train] Ep  831 | Reward: -1574.64
+[Train] Ep  832 | Reward: 2693.26
+[Train] Ep  833 | Reward: -2306.35
+[Train] Ep  834 | Reward: -88.80
+[Eval]	 Ep  835 | Reward: 588.38 ± 1060.26 | Length: 400
+[Train] Ep  835 | Reward: 183.94
+[Train] Ep  836 | Reward: 2696.44
+[Train] Ep  837 | Reward: -54.71
+[Train] Ep  838 | Reward: 1366.44
+[Train] Ep  839 | Reward: -1114.09
+[Eval]	 Ep  840 | Reward: -316.28 ± 2240.28 | Length: 400
+[Train] Ep  840 | Reward: -3346.30
+[Train] Ep  841 | Reward: -3412.44
+[Train] Ep  842 | Reward: -3718.80
+[Train] Ep  843 | Reward: -50.86
+[Train] Ep  844 | Reward: 200.14
+[Eval]	 Ep  845 | Reward: 510.24 ± 1092.91 | Length: 400
+[Train] Ep  845 | Reward: -1142.92
+[Train] Ep  846 | Reward: -1038.85
+[Train] Ep  847 | Reward: -974.23
+[Train] Ep  848 | Reward: -2362.62
+[Train] Ep  849 | Reward: 234.27
+[Eval]	 Ep  850 | Reward: 538.12 ± 1033.32 | Length: 406
+[Train] Ep  850 | Reward: 2556.34
+[Train] Ep  851 | Reward: -3526.08
+[Train] Ep  852 | Reward: -8.72
+[Train] Ep  853 | Reward: -1067.44
+[Train] Ep  854 | Reward: -4505.01
+[Eval]	 Ep  855 | Reward: 1118.10 ± 1290.06 | Length: 300
+[Train] Ep  855 | Reward: 34.55
+[Train] Ep  856 | Reward: -208.76
+[Train] Ep  857 | Reward: -382.96
+[Train] Ep  858 | Reward: -11.16
+[Train] Ep  859 | Reward: -4306.87
+[Eval]	 Ep  860 | Reward: 1129.75 ± 1288.28 | Length: 301
+[Train] Ep  860 | Reward: 5.45
+[Train] Ep  861 | Reward: -725.76
+[Train] Ep  862 | Reward: 2694.92
+[Train] Ep  863 | Reward: -3944.10
+[Train] Ep  864 | Reward: 2694.99
+[Eval]	 Ep  865 | Reward: 19.31 ± 105.58 | Length: 500
+[Train] Ep  865 | Reward: 2695.08
+[Train] Ep  866 | Reward: -2839.04
+[Train] Ep  867 | Reward: 2695.00
+[Train] Ep  868 | Reward: -2346.92
+[Train] Ep  869 | Reward: -2438.70
+[Eval]	 Ep  870 | Reward: 153.67 ± 128.08 | Length: 500
+[Train] Ep  870 | Reward: -53.79
+[Train] Ep  871 | Reward: 2694.94
+[Train] Ep  872 | Reward: -32.63
+[Train] Ep  873 | Reward: -3369.04
+[Train] Ep  874 | Reward: 2696.55
+[Eval]	 Ep  875 | Reward: -157.77 ± 2004.33 | Length: 400
+[Train] Ep  875 | Reward: -57.47
+[Train] Ep  876 | Reward: 2684.49
+[Train] Ep  877 | Reward: -3813.04
+[Train] Ep  878 | Reward: -1594.52
+[Train] Ep  879 | Reward: -761.82
+[Eval]	 Ep  880 | Reward: 556.08 ± 1074.63 | Length: 400
+[Train] Ep  880 | Reward: -473.54
+[Train] Ep  881 | Reward: 1530.31
+[Train] Ep  882 | Reward: -858.88
+[Train] Ep  883 | Reward: 1072.96
+[Train] Ep  884 | Reward: -106.04
+[Eval]	 Ep  885 | Reward: 637.10 ± 1032.93 | Length: 400
+[Train] Ep  885 | Reward: 147.08
+[Train] Ep  886 | Reward: -2616.30
+[Train] Ep  887 | Reward: -66.48
+[Train] Ep  888 | Reward: -1511.83
+[Train] Ep  889 | Reward: -83.87
+[Eval]	 Ep  890 | Reward: -324.71 ± 2305.31 | Length: 405
+[Train] Ep  890 | Reward: 93.98
+[Train] Ep  891 | Reward: -3952.01
+[Train] Ep  892 | Reward: 191.20
+[Train] Ep  893 | Reward: -105.83
+[Train] Ep  894 | Reward: -1352.88
+[Eval]	 Ep  895 | Reward: -853.24 ± 1812.39 | Length: 442
+[Train] Ep  895 | Reward: -1.47
+[Train] Ep  896 | Reward: -699.99
+[Train] Ep  897 | Reward: -40.63
+[Train] Ep  898 | Reward: -3230.70
+[Train] Ep  899 | Reward: -3769.87
+[Eval]	 Ep  900 | Reward: -1151.77 ± 2730.94 | Length: 400
+[Train] Ep  900 | Reward: 2695.25
+[Train] Ep  901 | Reward: 2697.27
+[Train] Ep  902 | Reward: 2694.92
+[Train] Ep  903 | Reward: 2698.30
+[Train] Ep  904 | Reward: 232.82
+[Eval]	 Ep  905 | Reward: 858.95 ± 1062.79 | Length: 351
+[Train] Ep  905 | Reward: -3094.31
+[Train] Ep  906 | Reward: -77.71
+[Train] Ep  907 | Reward: -4397.24
+[Train] Ep  908 | Reward: 2433.35
+[Train] Ep  909 | Reward: 2695.16
+[Eval]	 Ep  910 | Reward: -1757.31 ± 2497.34 | Length: 474
+[Train] Ep  910 | Reward: 85.29
+[Train] Ep  911 | Reward: 133.29
+[Train] Ep  912 | Reward: 15.90
+[Train] Ep  913 | Reward: 877.61
+[Train] Ep  914 | Reward: -3894.75
+[Eval]	 Ep  915 | Reward: 144.99 ± 128.08 | Length: 500
+[Train] Ep  915 | Reward: 41.04
+[Train] Ep  916 | Reward: -38.16
+[Train] Ep  917 | Reward: -2452.59
+[Train] Ep  918 | Reward: -1277.05
+[Train] Ep  919 | Reward: 99.47
+[Eval]	 Ep  920 | Reward: 1169.44 ± 1251.70 | Length: 300
+[Train] Ep  920 | Reward: 2588.00
+[Train] Ep  921 | Reward: 2695.03
+[Train] Ep  922 | Reward: -3616.24
+[Train] Ep  923 | Reward: 2694.92
+[Train] Ep  924 | Reward: -4046.06
+[Eval]	 Ep  925 | Reward: 159.46 ± 153.14 | Length: 500
+[Train] Ep  925 | Reward: 61.36
+[Train] Ep  926 | Reward: -4181.51
+[Train] Ep  927 | Reward: 2694.94
+[Train] Ep  928 | Reward: -1236.72
+[Train] Ep  929 | Reward: -2374.81
+[Eval]	 Ep  930 | Reward: 578.50 ± 587.70 | Length: 419
+[Train] Ep  930 | Reward: -3706.37
+[Train] Ep  931 | Reward: 355.19
+[Train] Ep  932 | Reward: 74.04
+[Train] Ep  933 | Reward: -2583.70
+[Train] Ep  934 | Reward: -38.00
+[Eval]	 Ep  935 | Reward: -1033.78 ± 2004.05 | Length: 500
+[Train] Ep  935 | Reward: 2695.04
+[Train] Ep  936 | Reward: 2695.26
+[Train] Ep  937 | Reward: -95.92
+[Train] Ep  938 | Reward: -63.69
+[Train] Ep  939 | Reward: -1546.19
+[Eval]	 Ep  940 | Reward: 559.56 ± 1075.97 | Length: 400
+[Train] Ep  940 | Reward: -3954.60
+[Train] Ep  941 | Reward: -3455.78
+[Train] Ep  942 | Reward: -1382.82
+[Train] Ep  943 | Reward: 277.10
+[Train] Ep  944 | Reward: 265.11
+[Eval]	 Ep  945 | Reward: 68.20 ± 1648.77 | Length: 412
+[Train] Ep  945 | Reward: -77.60
+[Train] Ep  946 | Reward: -4215.12
+[Train] Ep  947 | Reward: -2404.05
+[Train] Ep  948 | Reward: -12.67
+[Train] Ep  949 | Reward: -3649.60
+[Eval]	 Ep  950 | Reward: 1651.82 ± 1186.81 | Length: 213
+[Train] Ep  950 | Reward: 156.02
+[Train] Ep  951 | Reward: 299.89
+[Train] Ep  952 | Reward: -72.17
+[Train] Ep  953 | Reward: -3463.19
+[Train] Ep  954 | Reward: 2694.92
+[Eval]	 Ep  955 | Reward: -1846.66 ± 2451.94 | Length: 500
+[Train] Ep  955 | Reward: -6.19
+[Train] Ep  956 | Reward: -24.20
+[Train] Ep  957 | Reward: 2696.14
+[Train] Ep  958 | Reward: 2694.97
+[Train] Ep  959 | Reward: -3029.96
+[Eval]	 Ep  960 | Reward: 664.35 ± 1027.74 | Length: 400
+[Train] Ep  960 | Reward: -4088.83
+[Train] Ep  961 | Reward: -92.18
+[Train] Ep  962 | Reward: 2695.02
+[Train] Ep  963 | Reward: 36.71
+[Train] Ep  964 | Reward: 2695.25
+[Eval]	 Ep  965 | Reward: 517.95 ± 968.48 | Length: 411
+[Train] Ep  965 | Reward: -906.59
+[Train] Ep  966 | Reward: -2948.71
+[Train] Ep  967 | Reward: -83.29
+[Train] Ep  968 | Reward: -23.02
+[Train] Ep  969 | Reward: -4160.18
+[Eval]	 Ep  970 | Reward: 353.17 ± 2073.33 | Length: 329
+[Train] Ep  970 | Reward: 116.38
+[Train] Ep  971 | Reward: 83.84
+[Train] Ep  972 | Reward: -2162.10
+[Train] Ep  973 | Reward: 2152.09
+[Train] Ep  974 | Reward: 216.37
+[Eval]	 Ep  975 | Reward: 949.18 ± 1070.65 | Length: 342
+[Train] Ep  975 | Reward: -2627.09
+[Train] Ep  976 | Reward: 252.81
+[Train] Ep  977 | Reward: -2641.36
+[Train] Ep  978 | Reward: 142.10
+[Train] Ep  979 | Reward: 259.08
+[Eval]	 Ep  980 | Reward: -15.50 ± 54.74 | Length: 500
+[Train] Ep  980 | Reward: 1813.35
+[Train] Ep  981 | Reward: -86.82
+[Train] Ep  982 | Reward: 45.37
+[Train] Ep  983 | Reward: 167.05
+[Train] Ep  984 | Reward: -23.72
+[Eval]	 Ep  985 | Reward: -800.17 ± 2039.12 | Length: 500
+[Train] Ep  985 | Reward: -27.20
+[Train] Ep  986 | Reward: 20.91
+[Train] Ep  987 | Reward: 1585.67
+[Train] Ep  988 | Reward: 14.20
+[Train] Ep  989 | Reward: -1914.49
+[Eval]	 Ep  990 | Reward: 1393.89 ± 1137.71 | Length: 269
+[Train] Ep  990 | Reward: -83.45
+[Train] Ep  991 | Reward: -231.75
+[Train] Ep  992 | Reward: 262.57
+[Train] Ep  993 | Reward: 2696.37
+[Train] Ep  994 | Reward: 94.70
+[Eval]	 Ep  995 | Reward: -400.23 ± 2395.54 | Length: 400
+[Train] Ep  995 | Reward: 2694.92
+[Train] Ep  996 | Reward: 405.42
+[Train] Ep  997 | Reward: 2695.34
+[Train] Ep  998 | Reward: 2293.62
+[Train] Ep  999 | Reward: -16.72
+DQN training finished. Models saved as models/dqn_sheep1_obst0_*.pth

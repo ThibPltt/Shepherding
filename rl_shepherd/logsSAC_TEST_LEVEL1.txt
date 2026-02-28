@@ -1,0 +1,1013 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+C:\Users\Megaport\anaconda3\Lib\site-packages\stable_baselines3\common\vec_env\patch_gym.py:49: UserWarning: You provided an OpenAI Gym environment. We strongly recommend transitioning to Gymnasium environments. Stable-Baselines3 is automatically wrapping your environments in a compatibility layer, which could potentially cause issues.
+  warnings.warn(
+Environment initialized with 1 sheep for episode 1
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 2
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 3
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 4
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 5
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 6
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 7
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 8
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 9
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 10
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 11
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 12
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 13
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 14
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 15
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 16
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 17
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 18
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 19
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 20
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 21
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 22
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 23
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 24
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 25
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 26
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 27
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 28
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 29
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 30
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 31
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 32
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 33
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 34
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 35
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 36
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 37
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 38
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 39
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 40
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 41
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 42
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 43
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 44
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 45
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 46
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 47
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 48
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 49
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 50
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 51
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 52
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 53
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 54
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 55
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 56
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 57
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 58
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 59
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 60
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 61
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 62
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 63
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 64
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 65
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 66
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 67
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 68
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 69
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 70
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 71
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 72
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 73
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 74
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 75
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 76
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 77
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 78
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 79
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 80
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 81
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 82
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 83
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 84
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 85
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 86
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 87
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 88
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 89
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 90
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 91
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 92
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 93
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 94
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 95
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 96
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 97
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 98
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 99
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 100
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 101
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 102
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 103
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 104
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 105
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 106
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 107
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 108
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 109
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 110
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 111
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 112
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 113
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 114
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 115
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 116
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 117
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 118
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 119
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 120
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 121
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 122
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 123
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 124
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 125
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 126
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 127
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 128
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 129
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 130
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 131
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 132
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 133
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 134
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 135
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 136
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 137
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 138
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 139
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 140
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 141
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 142
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 143
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 144
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 145
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 146
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 147
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 148
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 149
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 150
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 151
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 152
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 153
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 154
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 155
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 156
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 157
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 158
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 159
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 160
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 161
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 162
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 163
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 164
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 165
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 166
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 167
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 168
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 169
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 170
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 171
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 172
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 173
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 174
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 175
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 176
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 177
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 178
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 179
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 180
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 181
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 182
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 183
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 184
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 185
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 186
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 187
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 188
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 189
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 190
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 191
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 192
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 193
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 194
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 195
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 196
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 197
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 198
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 199
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 200
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 201
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 202
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 203
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 204
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 205
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 206
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 207
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 208
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 209
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 210
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 211
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 212
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 213
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 214
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 215
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 216
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 217
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 218
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 219
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 220
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 221
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 222
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 223
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 224
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 225
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 226
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 227
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 228
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 229
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 230
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 231
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 232
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 233
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 234
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 235
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 236
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 237
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 238
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 239
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 240
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 241
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 242
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 243
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 244
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 245
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 246
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 247
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 248
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 249
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 250
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 251
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 252
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 253
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 254
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 255
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 256
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 257
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 258
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 259
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 260
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 261
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 262
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 263
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 264
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 265
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 266
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 267
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 268
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 269
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 270
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 271
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 272
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 273
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 274
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 275
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 276
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 277
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 278
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 279
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 280
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 281
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 282
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 283
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 284
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 285
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 286
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 287
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 288
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 289
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 290
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 291
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 292
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 293
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 294
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 295
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 296
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 297
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 298
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 299
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 300
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 301
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 302
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 303
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 304
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 305
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 306
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 307
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 308
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 309
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 310
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 311
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 312
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 313
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 314
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 315
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 316
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 317
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 318
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 319
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 320
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 321
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 322
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 323
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 324
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 325
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 326
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 327
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 328
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 329
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 330
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 331
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 332
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 333
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 334
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 335
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 336
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 337
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 338
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 339
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 340
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 341
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 342
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 343
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 344
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 345
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 346
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 347
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 348
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 349
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 350
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 351
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 352
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 353
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 354
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 355
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 356
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 357
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 358
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 359
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 360
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 361
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 362
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 363
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 364
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 365
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 366
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 367
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 368
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 369
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 370
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 371
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 372
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 373
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 374
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 375
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 376
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 377
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 378
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 379
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 380
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 381
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 382
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 383
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 384
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 385
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 386
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 387
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 388
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 389
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 390
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 391
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 392
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 393
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 394
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 395
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 396
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 397
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 398
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 399
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 400
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 401
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 402
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 403
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 404
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 405
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 406
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 407
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 408
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 409
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 410
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 411
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 412
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 413
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 414
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 415
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 416
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 417
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 418
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 419
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 420
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 421
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 422
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 423
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 424
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 425
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 426
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 427
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 428
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 429
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 430
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 431
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 432
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 433
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 434
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 435
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 436
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 437
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 438
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 439
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 440
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 441
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 442
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 443
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 444
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 445
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 446
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 447
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 448
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 449
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 450
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 451
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 452
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 453
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 454
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 455
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 456
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 457
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 458
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 459
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 460
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 461
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 462
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 463
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 464
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 465
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 466
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 467
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 468
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 469
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 470
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 471
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 472
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 473
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 474
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 475
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 476
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 477
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 478
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 479
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 480
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 481
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 482
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 483
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 484
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 485
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 486
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 487
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 488
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 489
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 490
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 491
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 492
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 493
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 494
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 495
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 496
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 497
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 498
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 499
+Using SAC Agent.
+Environment initialized with 1 sheep for episode 500
+Using SAC Agent.
+
+Ran 500 episodes.
+Average reward: -3.52 ± 18.12 (95% CI)
+Average Episode Length: 497.1 ± 3.3 (95% CI)
+Sucess rate: 0.01/1
+ 95% Conf. Int (Reward): [-21.64, 14.59]
+========================================

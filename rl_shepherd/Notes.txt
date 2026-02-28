@@ -1,0 +1,168 @@
+Comparer les scores entre les modèles
+
+rapidité
+
++ Faire les test des dummys models (lazy, tipsy, ruleBase et faire une moyenne)
+
+python train.py -a dqn -s 5 -g 1 -r 0
+(-a) -> dqn 1 (-s) -> 1 mouton (-g) -> taille goal area (-r) -> obstacle
+-> 1000 episodes
+
+python train.py -a td3 -s 5 -g 1 -r 0
+-> 4000 episodes (/500)
+
+python train.py -a ppo -s 5 -g 1 -r 0
+-> 4000 episodes (/500)
+
+
+test.py 
+-a -> agent (lazy, tipsy, ruleBase)
+-t -> agent (lazy, tipsy, ruleBase, PPO, A2C, TD3)
+-n -> nb episodes
+-s -> nb moutons
+-m -> max steps
+-r -> obstacle radius
+-g -> goal radius
+-v -> speed
+
+train.py
+-a agent (PPO, A2C, TD3, all)
+-s nb moutons
+-m max steps
+-r -> obstacle radius
+-g -> goal radius
+-v -> speed
+-c -> Directory to load a checkpoint from. If not provided, training starts from scratch.
+-cl -> Enable or disable curriculum learning (Reinitialize optimizer and PPO internals). Default is True.
+
+
+OUVRIR TENSORBOARD : tensorboard --logdir=logs/
+
+
+LEVEL 1 :
+
+
+TRAIN NORMAL 1 MOUTON DQN ET PPO 
+
+python.exe test.py -t PPO -a models/ppo_sheep1_obst0.zip -s 1 -r 0 -g 0.25 -m 500 -n 500 > logsPPO_TEST_LEVEL1.txt 2>&1
+
+Résultats :
+PPO TEST APRES TRAIN 1 : 
+Ran 500 episodes.
+Average reward: 1299.53 � 101.18 (95% CI)
+Average steps: 264.1 � 18.4 (95% CI)
+Sucess rate: 0.59/1
+
+-> PPO commence à être bien bon !
+-> VOIR COURBES TENSORBOARD
+
+
+DQN TEST APRES TRAIN 1 :
+Ran 500 episodes.
+Average reward: 3.10 � 19.06 (95% CI)
+Average steps: 496.6 � 3.5 (95% CI)
+Sucess rate: 0.01/1
+
+-> très mauvais pour ce genre d'activité
+
+RULEBASE TEST :
+Ran 500 episodes.
+Average reward: 2514.80 � 7.55 (95% CI)
+Average steps: 40.2 � 1.5 (95% CI)
+Sucess rate: 1.00/1
+
+-> largement au-dessus (mais normal parce qu'algorithme créé pour cette situation)
+
+LAZY TEST :
+Ran 500 episodes.
+Average reward: 1.87 � 21.24 (95% CI)
+Average steps: 496.0 � 3.9 (95% CI)
+Sucess rate: 0.01/1
+
+TIPSY TEST :
+Ran 500 episodes.
+Average reward: 17.61 � 21.16 (95% CI)
+Average steps: 495.3 � 3.8 (95% CI)
+Sucess rate: 0.02/1
+
+LEVEL 2 :
+-> ajout d'une ligne de code dans "shepherd_env.py"
+-> move += np.random.uniform(sheep_speed, 0.sheep_speed, size=2) -> pas trop sinon le mouton va dans le goal tout seul
+-> les moutons bougent de manière random dans le monde
+-> ajout d'un parser -v pour directement configurer cette ligne dans le CMD lors du train/test
+-> on fait du curriculum learning
+-> python.exe train.py -a ppo -s 1 -m 500 -r 0 -g 0.25 -c "models/ppo_sheep1_obst0.zip" > logsPPO_Train_LEVEL2.txt 2>&1
+
+RESULTATS :
+PPO TEST LEVEL 2 APRES TRAIN 2 :
+Ran 500 episodes.
+Average reward: 1376.51 � 114.42 (95% CI)
+Average steps: 245.6 � 20.9 (95% CI)
+Sucess rate: 0.53/1
+
+-> un peu meilleur qu'à l'étape 1 mais très peu
+
+DQN TEST LEVEL 2 APRES TRAIN 2 :
+Ran 500 episodes.
+Average reward: 601.29 � 95.97 (95% CI)
+Average steps: 387.6 � 17.6 (95% CI)
+Sucess rate: 0.26/1
+
+-> très forte amélioration de ce modèle au passage au LEVEL 2
+-> mais toujours pas assez et moins fort que PPO
+
+LAZY :
+Ran 500 episodes.
+Average reward: 528.17 � 82.74 (95% CI)
+Average steps: 403.2 � 14.9 (95% CI)
+Sucess rate: 0.29/1
+
+TISPY :
+Ran 500 episodes.
+Average reward: 567.12 � 84.34 (95% CI)
+Average steps: 398.0 � 15.3 (95% CI)
+Sucess rate: 0.30/1
+
+-> les algorithmes "dumb" rattrapent rapidement DQN
+
+LEVEL 3 :
+-> ajout d'un obstacle (taille : 0.3, pas trop grand, pas trop petit)
+
+RESULTATS :
+PPO TEST LEVEL 3 APRES TRAIN 3 :
+
+
+Pourquoi dqn marche pas ?
+
+Faire test avant train level 2 avant level 2 (avec copy cerveau)
+
+Entre 3 : Curriculum Leanring, apprentissage scratch, origine (sans apprentissage) -> question à répondre?
+
+Puis recommencer avec level 1 -> 3 moutons
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Quand plusieurs moutons -> calculuer succes rate et pas average sheep in goal
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+-> changer pour sucess rate
+
+à faire : train puis test ces 3 modèles (puis tableau comparatif pour le total) 
+-> colonne : situation, level, nb moutons etc. remplir avec les chiffres 
+-> et lignes : modèle
++ d'autres modèles
+-> repartir de checkpoint (reprendre l'entraînement précédent) -> Curiculum Learning
+OU SCRATCH (repartir de 0)
+
+Comparer les scores (average steps, reward, success) et déterminer ceux les + importants
+choisir et argumenter pourquoi
+
+Ajout de SAC
+Train Level 1 (origine)
+
+
+DQN pas baser sur une image mais un vecteur
+-> passer par MLP QN au lieu de CNN QN (voir code)
+
+TEST PPO 3S TRAIN LEVEL 2 puis suite des TRAIN 3 moutons
+Faire les trains avec plusieurs moutons (puis test -> Excel)
+Puis rapport + argumentation
+Puis vidéo
