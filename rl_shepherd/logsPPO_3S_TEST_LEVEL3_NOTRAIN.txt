@@ -1,0 +1,36 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+C:\Users\Thibaut\anaconda3\envs\shepherding\Lib\site-packages\pygame\pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_stream, resource_exists
+Environment initialized with 3 sheep for episode 1
+Using PPO Agent.
+Traceback (most recent call last):
+  File "C:\Users\Thibaut\Desktop\TP_RL-20260221T210908Z-1-001\TP_RL\rl_shepherd\test.py", line 198, in <module>
+    main()
+  File "C:\Users\Thibaut\Desktop\TP_RL-20260221T210908Z-1-001\TP_RL\rl_shepherd\test.py", line 166, in main
+    agent = load_agent(args.agentType,args.agent_dir, env)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Thibaut\Desktop\TP_RL-20260221T210908Z-1-001\TP_RL\rl_shepherd\test.py", line 46, in load_agent
+    return globals()[agentType].load(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Thibaut\anaconda3\envs\shepherding\Lib\site-packages\stable_baselines3\common\base_class.py", line 681, in load
+    data, params, pytorch_variables = load_from_zip_file(
+                                      ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Thibaut\anaconda3\envs\shepherding\Lib\site-packages\stable_baselines3\common\save_util.py", line 403, in load_from_zip_file
+    file = open_path(load_path, "r", verbose=verbose, suffix="zip")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Thibaut\anaconda3\envs\shepherding\Lib\functools.py", line 912, in wrapper
+    return dispatch(args[0].__class__)(*args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Thibaut\anaconda3\envs\shepherding\Lib\site-packages\stable_baselines3\common\save_util.py", line 240, in open_path_str
+    return open_path_pathlib(pathlib.Path(path), mode, verbose, suffix)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Thibaut\anaconda3\envs\shepherding\Lib\site-packages\stable_baselines3\common\save_util.py", line 264, in open_path_pathlib
+    return open_path(path.open("rb"), mode, verbose, suffix)
+                     ^^^^^^^^^^^^^^^
+  File "C:\Users\Thibaut\anaconda3\envs\shepherding\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'models'

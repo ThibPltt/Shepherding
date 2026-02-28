@@ -1,0 +1,1013 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+C:\Users\Megaport\Desktop\TP_RL\rl_shepherd\test.py:40: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  agent.q_net.load_state_dict(torch.load(model_name, map_location=device))
+Environment initialized with 1 sheep for episode 1
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 2
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 3
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 4
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 5
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 6
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 7
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 8
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 9
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 10
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 11
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 12
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 13
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 14
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 15
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 16
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 17
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 18
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 19
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 20
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 21
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 22
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 23
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 24
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 25
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 26
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 27
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 28
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 29
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 30
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 31
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 32
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 33
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 34
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 35
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 36
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 37
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 38
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 39
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 40
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 41
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 42
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 43
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 44
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 45
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 46
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 47
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 48
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 49
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 50
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 51
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 52
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 53
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 54
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 55
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 56
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 57
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 58
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 59
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 60
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 61
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 62
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 63
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 64
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 65
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 66
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 67
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 68
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 69
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 70
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 71
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 72
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 73
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 74
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 75
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 76
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 77
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 78
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 79
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 80
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 81
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 82
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 83
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 84
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 85
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 86
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 87
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 88
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 89
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 90
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 91
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 92
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 93
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 94
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 95
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 96
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 97
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 98
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 99
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 100
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 101
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 102
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 103
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 104
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 105
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 106
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 107
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 108
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 109
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 110
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 111
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 112
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 113
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 114
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 115
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 116
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 117
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 118
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 119
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 120
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 121
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 122
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 123
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 124
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 125
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 126
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 127
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 128
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 129
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 130
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 131
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 132
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 133
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 134
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 135
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 136
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 137
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 138
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 139
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 140
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 141
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 142
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 143
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 144
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 145
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 146
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 147
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 148
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 149
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 150
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 151
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 152
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 153
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 154
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 155
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 156
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 157
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 158
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 159
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 160
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 161
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 162
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 163
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 164
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 165
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 166
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 167
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 168
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 169
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 170
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 171
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 172
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 173
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 174
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 175
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 176
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 177
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 178
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 179
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 180
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 181
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 182
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 183
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 184
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 185
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 186
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 187
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 188
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 189
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 190
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 191
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 192
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 193
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 194
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 195
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 196
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 197
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 198
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 199
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 200
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 201
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 202
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 203
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 204
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 205
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 206
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 207
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 208
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 209
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 210
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 211
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 212
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 213
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 214
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 215
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 216
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 217
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 218
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 219
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 220
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 221
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 222
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 223
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 224
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 225
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 226
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 227
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 228
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 229
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 230
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 231
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 232
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 233
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 234
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 235
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 236
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 237
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 238
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 239
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 240
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 241
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 242
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 243
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 244
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 245
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 246
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 247
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 248
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 249
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 250
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 251
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 252
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 253
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 254
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 255
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 256
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 257
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 258
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 259
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 260
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 261
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 262
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 263
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 264
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 265
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 266
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 267
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 268
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 269
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 270
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 271
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 272
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 273
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 274
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 275
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 276
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 277
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 278
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 279
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 280
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 281
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 282
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 283
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 284
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 285
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 286
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 287
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 288
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 289
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 290
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 291
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 292
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 293
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 294
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 295
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 296
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 297
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 298
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 299
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 300
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 301
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 302
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 303
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 304
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 305
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 306
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 307
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 308
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 309
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 310
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 311
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 312
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 313
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 314
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 315
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 316
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 317
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 318
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 319
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 320
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 321
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 322
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 323
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 324
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 325
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 326
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 327
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 328
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 329
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 330
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 331
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 332
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 333
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 334
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 335
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 336
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 337
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 338
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 339
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 340
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 341
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 342
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 343
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 344
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 345
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 346
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 347
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 348
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 349
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 350
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 351
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 352
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 353
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 354
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 355
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 356
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 357
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 358
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 359
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 360
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 361
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 362
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 363
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 364
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 365
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 366
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 367
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 368
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 369
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 370
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 371
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 372
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 373
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 374
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 375
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 376
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 377
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 378
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 379
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 380
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 381
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 382
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 383
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 384
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 385
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 386
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 387
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 388
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 389
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 390
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 391
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 392
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 393
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 394
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 395
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 396
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 397
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 398
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 399
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 400
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 401
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 402
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 403
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 404
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 405
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 406
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 407
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 408
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 409
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 410
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 411
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 412
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 413
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 414
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 415
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 416
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 417
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 418
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 419
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 420
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 421
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 422
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 423
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 424
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 425
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 426
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 427
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 428
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 429
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 430
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 431
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 432
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 433
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 434
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 435
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 436
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 437
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 438
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 439
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 440
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 441
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 442
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 443
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 444
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 445
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 446
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 447
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 448
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 449
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 450
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 451
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 452
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 453
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 454
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 455
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 456
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 457
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 458
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 459
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 460
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 461
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 462
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 463
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 464
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 465
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 466
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 467
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 468
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 469
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 470
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 471
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 472
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 473
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 474
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 475
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 476
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 477
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 478
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 479
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 480
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 481
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 482
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 483
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 484
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 485
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 486
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 487
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 488
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 489
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 490
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 491
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 492
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 493
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 494
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 495
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 496
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 497
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 498
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 499
+Using DQN Agent.
+Environment initialized with 1 sheep for episode 500
+Using DQN Agent.
+
+Ran 500 episodes.
+Average reward: 21.45 ± 27.81 (95% CI)
+Average Episode Length: 493.1 ± 5.1 (95% CI)
+Sucess rate: 0.01/1
+ 95% Conf. Int (Reward): [-6.36, 49.25]
+========================================

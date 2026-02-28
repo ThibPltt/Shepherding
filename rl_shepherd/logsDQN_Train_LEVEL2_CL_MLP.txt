@@ -1,0 +1,188 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+C:\Users\Megaport\Desktop\TP_RL\rl_shepherd\train.py:101: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  agent.q_net.load_state_dict(torch.load(args.checkpoint_dir, map_location=device))
+Initialisation des environnements...
+
+ Calcul de l'estimation pour DQN (Approx) (100000 steps)...
+   -> Vitesse env mesurée : 6774 steps/sec
+   -> Vitesse d'entraînement estimée : ~1935 steps/sec
+   ->  TEMPS ESTIMÉ : 0:00:51 (Heures:Minutes:Secondes)
+
+--------------------------------------------------
+Training with MLP_QN (#sheep: 1)...
+Chargement du modèle DQN depuis models/dqn_sheep1_obst0.pth_best.pth...
+[Eval]	 Ep    0 | Reward: -265.20 ± 455.85 | Length: 500
+New best model saved to models/dqn_sheep1_obst0.pth_best.pth
+[Train] Ep    0 | Reward: -33.41
+[Train] Ep    1 | Reward: -144.73
+[Train] Ep    2 | Reward: -1142.62
+[Train] Ep    3 | Reward: -66.12
+[Train] Ep    4 | Reward: -246.45
+[Eval]	 Ep    5 | Reward: -1731.62 ± 2142.61 | Length: 500
+[Train] Ep    5 | Reward: -109.39
+[Train] Ep    6 | Reward: -605.42
+[Train] Ep    7 | Reward: -171.19
+[Train] Ep    8 | Reward: -85.14
+[Train] Ep    9 | Reward: -277.75
+[Eval]	 Ep   10 | Reward: -2063.50 ± 2073.89 | Length: 500
+[Train] Ep   10 | Reward: -601.79
+[Train] Ep   11 | Reward: 11.71
+[Train] Ep   12 | Reward: -10.61
+[Train] Ep   13 | Reward: 189.33
+[Train] Ep   14 | Reward: -41.95
+[Eval]	 Ep   15 | Reward: -1338.15 ± 1560.81 | Length: 500
+[Train] Ep   15 | Reward: 92.95
+[Train] Ep   16 | Reward: -119.25
+[Train] Ep   17 | Reward: 15.60
+[Train] Ep   18 | Reward: -363.82
+[Train] Ep   19 | Reward: -112.00
+[Eval]	 Ep   20 | Reward: -2804.14 ± 2316.57 | Length: 500
+[Train] Ep   20 | Reward: 118.50
+[Train] Ep   21 | Reward: -52.12
+[Train] Ep   22 | Reward: -842.40
+[Train] Ep   23 | Reward: -438.56
+[Train] Ep   24 | Reward: 119.08
+[Eval]	 Ep   25 | Reward: -369.50 ± 731.47 | Length: 500
+[Train] Ep   25 | Reward: -149.20
+[Train] Ep   26 | Reward: -674.32
+[Train] Ep   27 | Reward: -65.99
+[Train] Ep   28 | Reward: 2708.32
+[Train] Ep   29 | Reward: -3219.58
+[Eval]	 Ep   30 | Reward: -2690.37 ± 2342.51 | Length: 500
+[Train] Ep   30 | Reward: -549.38
+[Train] Ep   31 | Reward: -97.40
+[Train] Ep   32 | Reward: -3481.24
+[Train] Ep   33 | Reward: -656.34
+[Train] Ep   34 | Reward: -1685.59
+[Eval]	 Ep   35 | Reward: -62.87 ± 302.63 | Length: 500
+New best model saved to models/dqn_sheep1_obst0.pth_best.pth
+[Train] Ep   35 | Reward: 25.73
+[Train] Ep   36 | Reward: -532.30
+[Train] Ep   37 | Reward: -118.20
+[Train] Ep   38 | Reward: -331.32
+[Train] Ep   39 | Reward: -234.28
+[Eval]	 Ep   40 | Reward: -1687.56 ± 2295.78 | Length: 500
+[Train] Ep   40 | Reward: 19.85
+[Train] Ep   41 | Reward: -2880.30
+[Train] Ep   42 | Reward: -2670.07
+[Train] Ep   43 | Reward: -682.47
+[Train] Ep   44 | Reward: 15.24
+[Eval]	 Ep   45 | Reward: -40.51 ± 39.09 | Length: 500
+New best model saved to models/dqn_sheep1_obst0.pth_best.pth
+[Train] Ep   45 | Reward: -2618.36
+[Train] Ep   46 | Reward: -235.22
+[Train] Ep   47 | Reward: -4463.12
+[Train] Ep   48 | Reward: -2208.31
+[Train] Ep   49 | Reward: -47.46
+[Eval]	 Ep   50 | Reward: -4116.67 ± 1138.86 | Length: 500
+[Train] Ep   50 | Reward: -2337.09
+[Train] Ep   51 | Reward: -12.16
+[Train] Ep   52 | Reward: -514.21
+[Train] Ep   53 | Reward: 44.36
+[Train] Ep   54 | Reward: -150.97
+[Eval]	 Ep   55 | Reward: -3746.55 ± 1858.73 | Length: 500
+[Train] Ep   55 | Reward: -403.10
+[Train] Ep   56 | Reward: -170.90
+[Train] Ep   57 | Reward: -482.41
+[Train] Ep   58 | Reward: -201.28
+[Train] Ep   59 | Reward: -2829.41
+[Eval]	 Ep   60 | Reward: 57.24 ± 1517.95 | Length: 400
+New best model saved to models/dqn_sheep1_obst0.pth_best.pth
+[Train] Ep   60 | Reward: -79.81
+[Train] Ep   61 | Reward: -137.22
+[Train] Ep   62 | Reward: -3547.85
+[Train] Ep   63 | Reward: -3546.54
+[Train] Ep   64 | Reward: -81.92
+[Eval]	 Ep   65 | Reward: -746.34 ± 1458.66 | Length: 500
+[Train] Ep   65 | Reward: -3298.77
+[Train] Ep   66 | Reward: -3352.62
+[Train] Ep   67 | Reward: -223.12
+[Train] Ep   68 | Reward: -33.71
+[Train] Ep   69 | Reward: -107.80
+[Eval]	 Ep   70 | Reward: -2042.73 ± 1893.01 | Length: 500
+[Train] Ep   70 | Reward: -1061.87
+[Train] Ep   71 | Reward: -48.77
+[Train] Ep   72 | Reward: -424.64
+[Train] Ep   73 | Reward: -92.05
+[Train] Ep   74 | Reward: -109.42
+[Eval]	 Ep   75 | Reward: -28.43 ± 69.63 | Length: 500
+[Train] Ep   75 | Reward: -45.99
+[Train] Ep   76 | Reward: -674.49
+[Train] Ep   77 | Reward: -51.95
+[Train] Ep   78 | Reward: -575.79
+[Train] Ep   79 | Reward: -1339.78
+[Eval]	 Ep   80 | Reward: -1289.93 ± 1686.71 | Length: 500
+[Train] Ep   80 | Reward: -79.09
+[Train] Ep   81 | Reward: 82.23
+[Train] Ep   82 | Reward: 322.85
+[Train] Ep   83 | Reward: -1246.26
+[Train] Ep   84 | Reward: 51.29
+[Eval]	 Ep   85 | Reward: -1748.04 ± 2427.24 | Length: 500
+[Train] Ep   85 | Reward: -32.52
+[Train] Ep   86 | Reward: -1856.01
+[Train] Ep   87 | Reward: -727.02
+[Train] Ep   88 | Reward: -45.28
+[Train] Ep   89 | Reward: 158.98
+[Eval]	 Ep   90 | Reward: -1393.24 ± 1886.17 | Length: 500
+[Train] Ep   90 | Reward: -276.56
+[Train] Ep   91 | Reward: 23.01
+[Train] Ep   92 | Reward: -10.66
+[Train] Ep   93 | Reward: -3835.43
+[Train] Ep   94 | Reward: -51.85
+[Eval]	 Ep   95 | Reward: -1239.16 ± 1803.01 | Length: 500
+[Train] Ep   95 | Reward: -230.47
+[Train] Ep   96 | Reward: -1127.08
+[Train] Ep   97 | Reward: -107.98
+[Train] Ep   98 | Reward: -28.86
+[Train] Ep   99 | Reward: -48.66
+[Eval]	 Ep  100 | Reward: -800.18 ± 1645.45 | Length: 500
+[Train] Ep  100 | Reward: -4515.93
+[Train] Ep  101 | Reward: -410.86
+[Train] Ep  102 | Reward: 27.27
+[Train] Ep  103 | Reward: -2429.39
+[Train] Ep  104 | Reward: 2499.59
+Traceback (most recent call last):
+  File "C:\Users\Megaport\Desktop\TP_RL\rl_shepherd\train.py", line 105, in <module>
+    model = train_vector_dqn(
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Megaport\Desktop\TP_RL\rl_shepherd\agents\MLP_QN.py", line 273, in train_vector_dqn
+    loss = agent.train_step(batch_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Megaport\Desktop\TP_RL\rl_shepherd\agents\MLP_QN.py", line 166, in train_step
+    q_values = self.q_net(states).gather(1, actions)
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Megaport\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Megaport\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Megaport\Desktop\TP_RL\rl_shepherd\agents\MLP_QN.py", line 73, in forward
+    return self.net(x)
+           ^^^^^^^^^^^
+  File "C:\Users\Megaport\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Megaport\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Megaport\anaconda3\Lib\site-packages\torch\nn\modules\container.py", line 250, in forward
+    input = module(input)
+            ^^^^^^^^^^^^^
+  File "C:\Users\Megaport\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Megaport\anaconda3\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Megaport\anaconda3\Lib\site-packages\torch\nn\modules\activation.py", line 133, in forward
+    return F.relu(input, inplace=self.inplace)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Megaport\anaconda3\Lib\site-packages\torch\nn\functional.py", line 1704, in relu
+    result = torch.relu(input)
+             ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+^C
