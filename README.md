@@ -7,7 +7,7 @@ Reinforcement learning for a herding task: a shepherd agent learns to push sheep
 | At a glance | |
 |---|---|
 | **Dates** | 2026 |
-| **Context** | multi-agent reinforcement learning · course project · ENSIM / Le Mans Université |
+| **Context** | multi-agent reinforcement learning · solo course project · ENSIM / Le Mans Université |
 | **Technologies** | Python · PyTorch · Stable-Baselines3 · Gym · Pygame |
 | **Subject** | [Reinforcement Learning for Multi-Agent Shepherding.pdf](Reinforcement%20Learning%20for%20Multi-Agent%20Shepherding.pdf) |
 
@@ -17,7 +17,7 @@ In a 2D continuous world, a shepherd must herd sheep into a goal area, first sta
 
 ## Role
 
-Course project, ENSIM / Le Mans Université, 5th year.
+Solo course project, ENSIM / Le Mans Université, 5th year.
 
 ## Decisions
 
