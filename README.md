@@ -76,3 +76,7 @@ python test.py -t PPO -a models/ppo_sheep1_obst0_LEVEL1.zip -n 500 -s 1
 ```
 
 **Author:** Thibaut Platet · ENSIM
+
+## Licence
+
+Released under the [MIT licence](LICENSE).
