@@ -80,3 +80,9 @@ python test.py -t PPO -a models/ppo_sheep1_obst0_LEVEL1.zip -n 500 -s 1
 ## Licence
 
 Released under the [MIT licence](LICENSE).
+
+<details>
+<summary>🇫🇷 En bref</summary>
+
+Apprentissage par renforcement sur une tâche de rassemblement de moutons : PPO, DQN, SAC et TD3 comparés à des stratégies scriptées, avec du curriculum learning (Python, PyTorch, Stable-Baselines3). Projet de cours réalisé seul, ENSIM / Le Mans Université (2026).
+</details>
