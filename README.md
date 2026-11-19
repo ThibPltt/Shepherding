@@ -18,11 +18,11 @@ In a 2D continuous world, a shepherd must herd sheep into a goal area, first sta
 
 ## Role
 
-Solo course project, ENSIM / Le Mans Université, 5th year. More on [thibautplatet.com](https://thibautplatet.com/en/projects/shepherding.html).
+Solo course project, ENSIM / Le Mans Université, 5th year, built on the simulation environment provided. My part: training and testing four algorithms, rewriting the DQN as an MLP network, comparing training strategies and analysing the results. More on [thibautplatet.com](https://thibautplatet.com/en/projects/shepherding.html).
 
 ## Decisions
 
-- Build a Gym environment with Pygame rendering, where sheep react to the shepherd through repulsive forces.
+- Start from the provided Gym environment (Pygame rendering), where sheep react to the shepherd through repulsive forces.
 - Compare four learning algorithms (PPO, DQN, SAC, TD3) with three scripted shepherds (*lazy*, *tipsy*, *rule-based*), all on the same 500 test episodes.
 - Train through a curriculum of three levels, each one starting from the checkpoint of the previous level, and compare it with training from scratch.
 
@@ -30,7 +30,7 @@ Solo course project, ENSIM / Le Mans Université, 5th year. More on [thibautplat
 
 The hand-written rule-based shepherd remains the reference (100 % success on levels 1 and 2). Among the learned agents, PPO transfers best: trained on level 1 only, it solves 78 % of the level-3 episodes, against 33 % when trained directly on level 3.
 
-## Environment (`rl_shepherd/envs/shepherd_env.py`)
+## Environment (provided: `rl_shepherd/envs/shepherd_env.py`)
 
 - **Action:** the shepherd's heading, continuous in [-1, 1].
 - **Observation:** for each sheep its position relative to the shepherd and to the goal, plus the goal and the obstacle relative to the shepherd.
@@ -85,5 +85,5 @@ Released under the [MIT licence](LICENSE).
 <details>
 <summary>🇫🇷 En bref</summary>
 
-Un berger virtuel qui apprend, par renforcement, à rentrer des moutons dans leur enclos. Dans une simulation 2D où les moutons fuient à l’approche du berger, il doit les rentrer d’abord immobiles, puis qui broutent, puis avec un obstacle sur le terrain ; PPO, DQN, SAC et TD3 sont comparés à des bergers scriptés (Python, PyTorch, Stable-Baselines3). Projet de cours réalisé seul à l’ENSIM (février 2026). Fiche complète sur [thibautplatet.com](https://thibautplatet.com/projets/shepherding.html).
+Un berger virtuel qui apprend, par renforcement, à rentrer des moutons dans leur enclos. Dans une simulation 2D où les moutons fuient à l’approche du berger, il doit les rentrer d’abord immobiles, puis qui broutent, puis avec un obstacle sur le terrain ; PPO, DQN, SAC et TD3 sont comparés à des bergers scriptés (Python, PyTorch, Stable-Baselines3). Projet de cours réalisé seul à l’ENSIM (février 2026), à partir de l’environnement de simulation fourni. Fiche complète sur [thibautplatet.com](https://thibautplatet.com/projets/shepherding.html).
 </details>
