@@ -1,4 +1,4 @@
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ThibPltt/ThibPltt/main/assets/repos/Shepherding-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ThibPltt/ThibPltt/main/assets/repos/Shepherding-light.svg"><img src="https://raw.githubusercontent.com/ThibPltt/ThibPltt/main/assets/repos/Shepherding-light.svg" width="100%" alt="Shepherding, 2026: reinforcement learning for a herding task, Python, PyTorch, Stable-Baselines3."></picture>
+<a href="https://thibautplatet.com/en/projects/shepherding.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ThibPltt/ThibPltt/main/assets/repos/Shepherding-dark.svg"><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ThibPltt/ThibPltt/main/assets/repos/Shepherding-light.svg"><img src="https://raw.githubusercontent.com/ThibPltt/ThibPltt/main/assets/repos/Shepherding-light.svg" width="100%" alt="Shepherding, 2026: reinforcement learning for a herding task, Python, PyTorch, Stable-Baselines3."></picture></a>
 
 # Shepherding
 
@@ -6,9 +6,10 @@ Reinforcement learning for a herding task: a shepherd agent learns to push sheep
 
 | At a glance | |
 |---|---|
-| **Dates** | 2026 |
-| **Context** | multi-agent reinforcement learning · solo course project · ENSIM / Le Mans Université |
-| **Technologies** | Python · PyTorch · Stable-Baselines3 · Gym · Pygame |
+| **Dates** | Feb 2026 |
+| **Context** | reinforcement learning · solo project · ENSIM |
+| **Technologies** | Reinforcement Learning · PPO · Stable-Baselines3 · Python · PyTorch |
+| **Case study** | [thibautplatet.com/en/projects/shepherding.html](https://thibautplatet.com/en/projects/shepherding.html) |
 | **Subject** | [Reinforcement Learning for Multi-Agent Shepherding.pdf](Reinforcement%20Learning%20for%20Multi-Agent%20Shepherding.pdf) |
 
 ## Problem
@@ -17,7 +18,7 @@ In a 2D continuous world, a shepherd must herd sheep into a goal area, first sta
 
 ## Role
 
-Solo course project, ENSIM / Le Mans Université, 5th year.
+Solo course project, ENSIM / Le Mans Université, 5th year. More on [thibautplatet.com](https://thibautplatet.com/en/projects/shepherding.html).
 
 ## Decisions
 
@@ -84,5 +85,5 @@ Released under the [MIT licence](LICENSE).
 <details>
 <summary>🇫🇷 En bref</summary>
 
-Apprentissage par renforcement sur une tâche de rassemblement de moutons : PPO, DQN, SAC et TD3 comparés à des stratégies scriptées, avec du curriculum learning (Python, PyTorch, Stable-Baselines3). Projet de cours réalisé seul, ENSIM / Le Mans Université (2026).
+Un berger virtuel qui apprend, par renforcement, à rentrer des moutons dans leur enclos. Dans une simulation 2D où les moutons fuient à l’approche du berger, il doit les rentrer d’abord immobiles, puis qui broutent, puis avec un obstacle sur le terrain ; PPO, DQN, SAC et TD3 sont comparés à des bergers scriptés (Python, PyTorch, Stable-Baselines3). Projet de cours réalisé seul à l’ENSIM (février 2026). Fiche complète sur [thibautplatet.com](https://thibautplatet.com/projets/shepherding.html).
 </details>
